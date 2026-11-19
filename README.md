@@ -1,6 +1,8 @@
-# LFR-Syn
+# LFR-Syn → FICEL-Syn
 
-Research manuscripts, method code and saved-study reproduction for reaction-constrained molecular replacement. Earlier completed writing is the starting point of this repository; later research will be recorded as an explicit continuation.
+先收录前期已经成文的2号、6号论文及配套代码和保存数据，再通过研究进化树延伸到当前六算法研究线。各阶段的正向证据、阴性结果和未验证内容均保留其原有含义。
+
+Research manuscripts, method code and saved-study reproduction for reaction-constrained molecular replacement. Earlier completed writing is the starting point of this repository; the current FICEL-Syn line is recorded as an explicit continuation.
 
 ## Read the completed writing
 
@@ -43,3 +45,21 @@ The complete saved analysis includes 100,000 bootstrap replicates and is CPU-onl
 First public deposit: 19 November 2026, authorized by the project owner. Text inside dated source documents saying “private” or “not yet uploaded” describes the earlier local state. Original scientific values and negative results are retained. Connection credentials, machine-login records, model weights, complete stock/template distributions and third-party corpora are excluded. Some original Word/PDF documents and provenance strings retain historical machine paths; those are not required for the portable saved analysis.
 
 No project-wide reuse license has been selected. Public visibility is not a new MIT/Apache license, and no additional rights over external assets are asserted.
+
+## Research history and current continuation
+
+1. Read the [completed earlier manuscripts](manuscripts/README.md).
+2. Explore the [research evolution tree](history/research-evolution-tree.html), or download it and open it locally. It is self-contained and does not need a server. GitHub's file view displays HTML source rather than running it.
+3. Read the [stage-by-stage continuation](history/TIMELINE.md) and [current research scheme](research/README.md).
+4. Run the [FICEL numerical reference](research/ficel-v5.2.5/README.md) independently of the historical molecular pipeline.
+
+中文阅读顺序：先看2号与6号已成文稿，再看进化树中的正、负结果和去留决定，最后阅读当前六算法方案。历史实验、后续设计、软件检查和新方法效果不混为一谈。当前主线的完整科学效果仍需验证。
+
+## Research history and current continuation
+
+1. Read the [completed earlier manuscripts](manuscripts/README.md).
+2. Explore the [research evolution tree](history/research-evolution-tree.html), or download it and open it locally. It is self-contained and does not need a server. GitHub's file view displays HTML source rather than running it.
+3. Read the [stage-by-stage continuation](history/TIMELINE.md) and [current research scheme](research/README.md).
+4. Run the [FICEL numerical reference](research/ficel-v5.2.5/README.md) independently of the historical molecular pipeline.
+
+中文阅读顺序：先看2号与6号已成文稿，再看进化树中的正、负结果和去留决定，最后阅读当前六算法方案。历史实验、后续设计、软件检查和新方法效果不混为一谈。当前主线的完整科学效果仍需验证。

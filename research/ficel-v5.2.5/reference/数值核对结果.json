@@ -1,0 +1,162 @@
+{
+  "kind": "deterministic_mathematical_and_implementation_checks_not_performance_experiment",
+  "data": "handwritten_toy_counts_only_no_research_data_no_server",
+  "four_cell_order": [
+    "11",
+    "10",
+    "01",
+    "00"
+  ],
+  "reference_semantics": "set of existing observation_ref values; no duplicated likelihood from rereading; incompatible content raises ordinary input error; shared controls do not become independent joint observations",
+  "limits": {
+    "max_nonzero_mixture_terms": 4096,
+    "max_integer_bits": 65536,
+    "max_rational_operations_per_query": 2000000,
+    "lcb_bisection_steps": 24
+  },
+  "all_passed": true,
+  "test_count": 19,
+  "tests": [
+    {
+      "name": "hierarchical_exact_mixture",
+      "passed": true,
+      "details": {
+        "(1, 2, 1, 1)": "5/7",
+        "(1, 3, 1, 1)": "2/7"
+      }
+    },
+    {
+      "name": "hierarchical_mean_delta_5_over_21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hierarchical_evidence_7_over_40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ki1_kappa_cancels_exactly",
+      "passed": true,
+      "details": {
+        "posterior": {
+          "(1, 3, 1, 1)": "1"
+        },
+        "evidence": "1/10"
+      }
+    },
+    {
+      "name": "independent_sources_are_not_within_source_repeats",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cdf_boundaries_and_known_value",
+      "passed": true,
+      "details": {
+        "-1": "0",
+        "-3/4": "1/128",
+        "-1/2": "1/16",
+        "-1/4": "27/128",
+        "0": "1/2",
+        "1/4": "101/128",
+        "1/2": "15/16",
+        "3/4": "127/128",
+        "1": "1"
+      }
+    },
+    {
+      "name": "cdf_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cdf_monotone",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "asymmetric_mixture_reflection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "lcb_exact_cdf_bracket",
+      "passed": true,
+      "details": {
+        "lo": "-2247481/4194304",
+        "hi": "-4494961/8388608",
+        "width": "1/8388608"
+      }
+    },
+    {
+      "name": "cold_start_negative_lcb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "exact_zero_score_and_a0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_lcb_and_separated_selection",
+      "passed": true,
+      "details": {
+        "lo": "1439861/4194304",
+        "hi": "2879723/8388608"
+      }
+    },
+    {
+      "name": "cross_zero_or_overlapping_intervals_unresolved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "evidence_ratio_one_step_predictive_sums_one",
+      "passed": true,
+      "details": [
+        "4/21",
+        "3/7",
+        "4/21",
+        "4/21"
+      ]
+    },
+    {
+      "name": "evidence_ratio_two_repeat_count_predictive_sums_one",
+      "passed": true,
+      "details": [
+        "37/294",
+        "3/98",
+        "37/294",
+        "10/147",
+        "10/147",
+        "16/49",
+        "3/98",
+        "3/98",
+        "10/147",
+        "37/294"
+      ]
+    },
+    {
+      "name": "rereading_reference_set_does_not_add_information",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incompatible_same_reference_not_silently_deduplicated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_resource_limits_return_numerical_unresolved",
+      "passed": true,
+      "details": [
+        "mixture_term_limit",
+        "integer_bit_limit",
+        "rational_operation_limit"
+      ]
+    }
+  ],
+  "scope": "conditional population-mean theta posterior, mean LCB, marginal paired prediction and count-block prediction; not q_new full-effect CDF, not shared-control multi-action joint IG, not effectiveness evidence"
+}
