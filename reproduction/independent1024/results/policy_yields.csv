@@ -1,0 +1,6 @@
+policy,raw_n,route_success,RF_route_success,external_route_success,distinct_external_successful_task_structures
+Original,1024,169,169,150,110
+B_joint6plus6,1024,221,221,202,113
+C_joint6plus6,1024,215,215,196,113
+B_fixedtask6plus6,1024,913,913,883,222
+C_fixedtask6plus6,1024,935,935,880,412

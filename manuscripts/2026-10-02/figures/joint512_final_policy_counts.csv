@@ -1,0 +1,9 @@
+policy,label,raw_n,rf_joint_lower,rf_joint_upper,external05_joint_lower,external05_joint_upper
+Original,Original,512,52,52,23,23
+B_route12,B route / 12,512,254,254,147,147
+B_joint12,B joint / 12,512,282,282,155,155
+B_joint6plus6,B joint / 6+6,512,311,311,176,176
+Mix_joint6plus6,Mix joint / 6+6,512,296,296,156,156
+C_joint6plus6,C joint / 6+6,512,249,249,112,112
+A_joint6plus6,A joint / 6+6,512,219,219,89,89
+SynTwins_joint6plus6,SynTwins / 6+6,512,153,161,58,66

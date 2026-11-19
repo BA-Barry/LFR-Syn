@@ -1,0 +1,26 @@
+[
+  {
+    "name": "v2_common_slot_retrieval_candidates.py",
+    "source_path": "/mnt/c/Users/Chu/v2_common_slot_retrieval_candidates.py"
+  },
+  {
+    "name": "v2_unified_raw8_candidates.py",
+    "source_path": "/mnt/c/Users/Chu/v2_unified_raw8_candidates.py"
+  },
+  {
+    "name": "independent_training256_candidates.py",
+    "source_path": "/mnt/c/Users/Chu/independent_training256_candidates.py"
+  },
+  {
+    "name": "joint_validation512_candidates.py",
+    "source_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/code/joint_validation512_candidates.py"
+  },
+  {
+    "name": "joint_validation512_graph.py",
+    "source_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/code/joint_validation512_graph.py"
+  },
+  {
+    "name": "shared_stock.py",
+    "source_path": "/home/chu/lfr-syn/src/lfr_syn/shared_stock.py"
+  }
+]

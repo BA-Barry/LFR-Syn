@@ -1,0 +1,11 @@
+comparison,label,endpoint,raw_n,difference_percentage_points,interval_lower_percentage_points,interval_upper_percentage_points,positive_runs,negative_runs
+primary_Mix_minus_B_split,Mix minus B (primary),Optimized RF,512,-2.9296875,-6.4453125,0.5859375,3,5
+primary_Mix_minus_B_split,Mix minus B (primary),Chemprop >= 0.5,512,-3.90625,-6.4453125,-0.9765625,1,7
+attribution_B_minus_C,B minus C,Optimized RF,512,12.109375,8.984375,15.4296875,8,0
+attribution_B_minus_C,B minus C,Chemprop >= 0.5,512,12.5,10.546875,14.84375,8,0
+trigger_joint_minus_route,Joint minus route trigger,Optimized RF,512,5.46875,3.515625,7.2265625,7,0
+trigger_joint_minus_route,Joint minus route trigger,Chemprop >= 0.5,512,1.5625,0.78125,2.1484375,5,0
+allocation_split_minus_twelve,6+6 minus first-candidate 12,Optimized RF,512,5.6640625,3.90625,7.6171875,8,0
+allocation_split_minus_twelve,6+6 minus first-candidate 12,Chemprop >= 0.5,512,4.1015625,1.953125,7.03125,8,0
+B_minus_Morgan,B minus A,Optimized RF,512,17.96875,12.109375,23.828125,8,0
+B_minus_Morgan,B minus A,Chemprop >= 0.5,512,16.9921875,12.890625,21.2890625,8,0

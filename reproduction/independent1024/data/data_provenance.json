@@ -1,0 +1,123 @@
+{
+  "scope": "private_saved_record_analysis_reproduction_independent1024",
+  "completed_study": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006",
+  "external_output_directory": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1",
+  "optimizer_runs": 16,
+  "source_positions": 1024,
+  "policy_rows": 5120,
+  "complete_checkpoint_vectors": 1118,
+  "checkpoint_count": 10,
+  "task_columns": [
+    "gsk3b_activity",
+    "jnk3_activity"
+  ],
+  "retained_row_fields": [
+    "sample_id",
+    "task",
+    "replicate",
+    "cohort_id",
+    "position",
+    "source_identity",
+    "policy",
+    "source_solved",
+    "source_joint",
+    "source_smiles",
+    "source_score",
+    "source_qed",
+    "final_smiles",
+    "final_score",
+    "final_qed",
+    "solved",
+    "joint",
+    "fallback_solved",
+    "fallback_joint",
+    "replaced",
+    "status",
+    "scientific_endpoint_available",
+    "final_structure_known",
+    "operational_fallback_smiles",
+    "operational_fallback_score",
+    "operational_fallback_qed",
+    "source_valid",
+    "qualification",
+    "guiding_RF_nondegradation_guarantee",
+    "guiding_RF_change",
+    "endpoint_lower_solved",
+    "endpoint_upper_solved",
+    "endpoint_lower_joint",
+    "endpoint_upper_joint",
+    "logical_model_calls",
+    "logical_search_seconds",
+    "logical_cost_observation_complete",
+    "actual_new_calls",
+    "planning_soft_seconds"
+  ],
+  "attempt_projection": "query.status only; retained attempts are counted without route execution",
+  "source_projection": "Full unchanged objects retained, including original path/provenance strings.",
+  "candidate_projection": "Full source object and each original arm native_status/planned_candidates/scored_candidates only; full root/reaction witnesses remain in the authoritative science archive.",
+  "data_origins": {
+    "design.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\fixed_outputs.json",
+    "sources_with_parents.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\sources_with_parents.json",
+    "policy_rows.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\fixed_outputs.json",
+    "candidate_stage.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\candidate_stage.json",
+    "predictions.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\predictions.json",
+    "profiles.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\profiles.json",
+    "structure_descriptors.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\structure_descriptors.json",
+    "evaluation_design.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\evaluation_design.json",
+    "reference/analysis.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\analysis.json"
+  },
+  "code_sources": [
+    {
+      "delivered_file": "evaluate_independent.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\evaluate_independent.py",
+      "changes": []
+    },
+    {
+      "delivered_file": "independent_statistics.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\independent_statistics.py",
+      "changes": []
+    },
+    {
+      "delivered_file": "joint_validation512_external.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\joint_validation512_external.py",
+      "changes": []
+    },
+    {
+      "delivered_file": "joint_validation512_analysis.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\joint_validation512_analysis.py",
+      "changes": []
+    },
+    {
+      "delivered_file": "joint_validation512_graph.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\joint_validation512_graph.py",
+      "changes": []
+    },
+    {
+      "delivered_file": "graphga_saved_vector_analysis.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\graphga_transfer512_v1\\analysis_adapter\\analyze_rows.py",
+      "changes": []
+    },
+    {
+      "delivered_file": "audit_saved_independent_endpoints.py",
+      "actual_original_path": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\witness_reaudit\\audit_saved_independent_endpoints.py",
+      "changes": []
+    }
+  ],
+  "completed_audit_sources": {
+    "all_four_independent_audits_completed_20261006.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\witness_reaudit\\all_four_independent_audits_completed_20261006.json",
+    "native_CPU_properties_reaudit_after_owner_fix_20261006.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\witness_reaudit\\native_CPU_properties_reaudit_after_owner_fix_20261006.json",
+    "saved_CPU_reaudit_after_resume_origin_fix_20261006.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\witness_reaudit\\three_audits_and_repairs_snapshot_20261006\\saved_CPU_reaudit_after_resume_origin_fix_20261006.json",
+    "saved_independent_native_route_audit_20261005.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\witness_reaudit\\three_audits_and_repairs_snapshot_20261006\\saved_independent_native_route_audit_20261005.json",
+    "saved_independent_endpoint_audit_20261005.json": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\witness_reaudit\\three_audits_and_repairs_snapshot_20261006\\saved_independent_endpoint_audit_20261005.json"
+  },
+  "absolute_origin_paths": "Descriptive metadata only; the portable analysis never opens them.",
+  "assets_included": "Project analysis source and saved project-generated records only; no RF/Chemprop/Graph weights, generator corpus, templates or full inventory.",
+  "scientific_execution": {
+    "RF_predictions": 0,
+    "Graph_model_calls": 0,
+    "RunReactants": 0,
+    "external_predictions": 0,
+    "generation": 0
+  },
+  "native_measurements": "Saved canonical identities, profiles, scaffolds, similarities and route outcomes are consumed after completed independent native audits; they are not re-canonicalized or re-audited here."
+}

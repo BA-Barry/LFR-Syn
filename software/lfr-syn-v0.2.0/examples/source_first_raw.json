@@ -1,0 +1,64 @@
+{
+  "scope": "software_reproduction_not_new_scientific_sample",
+  "selection": "First original gsk3b rep0 raw position; chosen by input order, B/C have no qualified candidate.",
+  "rows": [
+    {
+      "sample_id": "gsk3b-rep0-r000",
+      "cohort_id": "gsk3b-rep0",
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 0,
+      "position": 0,
+      "raw_smiles": "CCNC(=O)c1ccncc1-c1ccc2ccc(-c3nccn3C)cc2c1",
+      "canonical_smiles": "CCNC(=O)c1ccncc1-c1ccc2ccc(-c3nccn3C)cc2c1",
+      "valid": true,
+      "duplicate_in_run": false,
+      "duplicate_in_task": false,
+      "historical_source_overlap": false,
+      "historical_source_paths": [],
+      "raw96_source_overlap": false,
+      "raw256_source_overlap": false,
+      "prior_task_score_known": false,
+      "task_score": 0.33,
+      "qed": 0.599966106722766,
+      "search_seed": 10302000,
+      "requested_search_seed": 10302000,
+      "training_seed": 10102001,
+      "sampling_seed": 10103001,
+      "training_physical_gpu": 0,
+      "graph_result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/parent_graph/shard-0/row-000.result.json",
+      "graph_result": {
+        "row": 0,
+        "input_smiles": "CCNC(=O)c1ccncc1-c1ccc2ccc(-c3nccn3C)cc2c1",
+        "input_metadata": {
+          "query_id": "parent-0000",
+          "sample_id": "gsk3b-rep0-r000",
+          "SMILES": "CCNC(=O)c1ccncc1-c1ccc2ccc(-c3nccn3C)cc2c1",
+          "search_seed": "10302000"
+        },
+        "seed": 10302000,
+        "solved": false,
+        "status": "unsolved_within_budget",
+        "canonical_smiles": "CCNC(=O)c1ccncc1-c1ccc2ccc(-c3nccn3C)cc2c1",
+        "target_in_stock": false,
+        "search_seconds": 17.132660836,
+        "query_setup_seconds": 0.12036406100000008,
+        "model_calls": 12,
+        "graph_nodes": 671,
+        "first_solution_calls": null,
+        "total_seconds": 17.253246205,
+        "soft_time_overrun": false
+      },
+      "graph_verified": false,
+      "graph_audit": {
+        "directory": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/parent_graph/shard-0",
+        "row": 0,
+        "search_status": "unsolved_within_budget",
+        "reported_solved": false,
+        "verified_saved_graph": false
+      },
+      "prior_graph_reused": false,
+      "query_seed_adopted": false
+    }
+  ]
+}

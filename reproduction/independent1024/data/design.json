@@ -1,0 +1,237 @@
+{
+  "experiment": "graphga_qualification_independent1024_v1",
+  "prepared_date": "2026-10-05",
+  "scope": "prospective_independent_GraphGA_fixed_vs_source_relative_qualification_1024",
+  "core_claim_changed": false,
+  "remote_directory": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+  "question": "Does fixed task qualification improve predicted-task/audited-route joint yield versus source-relative qualification on independently generated optimizer runs?",
+  "source_generator": {
+    "implementation": "existing TracedGraphGAGenerator",
+    "project_source": "/home/chu/lfr-syn/src/lfr_syn/graphga_generator.py",
+    "upstream_commit": "ae43219c89d5db134028336243f508606d81995e",
+    "corpus": "/home/chu/lfr-assets/guacamol/guacamol_v1_all.smiles",
+    "corpus_observed_bytes": 77290469,
+    "population_size": 100,
+    "mating_pool_size": 200,
+    "offspring_attempts_per_generation": 100,
+    "generations": 250,
+    "mutation_rate": 0.01,
+    "patience": null,
+    "n_jobs": 2,
+    "objective": "Fixed task RF probability only; invalid/disconnected inputs score zero. No constant feedback, quality multiplier, route or Chemprop score.",
+    "initialization": "Independent seeded uniform permutation of corpus rows; accept first 100 valid connected unique canonical structures, without task/QED/route filtering. Record rejected selected rows and corpus positions.",
+    "terminal_output": "64 independent uniform draws with replacement from the complete ordered terminal population of 100. Separate saved sampling seed; retain duplicates. No top-k64 export or post-export filtering.",
+    "proposal_accounting": "All 25,000 attempted offspring per optimizer run are retained in existing lineage files. Terminal draws are not described as raw mutation proposals.",
+    "runtime": "Original RF environment Python 3.11.15 / sklearn 1.2.2 / RDKit 2023.09.6."
+  },
+  "raw_source_positions": 1024,
+  "source_positions_per_run": 64,
+  "independent_optimizer_runs": 16,
+  "runs": [
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 0,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+      "generation_seed": 2026101501,
+      "initialization_seed": 2026101601,
+      "terminal_sampling_seed": 2026101701,
+      "search_seed_base": 12500000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 0,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep0",
+      "generation_seed": 2026101502,
+      "initialization_seed": 2026101602,
+      "terminal_sampling_seed": 2026101702,
+      "search_seed_base": 12510000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 1,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep1",
+      "generation_seed": 2026101503,
+      "initialization_seed": 2026101603,
+      "terminal_sampling_seed": 2026101703,
+      "search_seed_base": 12520000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 1,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep1",
+      "generation_seed": 2026101504,
+      "initialization_seed": 2026101604,
+      "terminal_sampling_seed": 2026101704,
+      "search_seed_base": 12530000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 2,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep2",
+      "generation_seed": 2026101505,
+      "initialization_seed": 2026101605,
+      "terminal_sampling_seed": 2026101705,
+      "search_seed_base": 12540000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 2,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep2",
+      "generation_seed": 2026101506,
+      "initialization_seed": 2026101606,
+      "terminal_sampling_seed": 2026101706,
+      "search_seed_base": 12550000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 3,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep3",
+      "generation_seed": 2026101507,
+      "initialization_seed": 2026101607,
+      "terminal_sampling_seed": 2026101707,
+      "search_seed_base": 12560000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 3,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep3",
+      "generation_seed": 2026101508,
+      "initialization_seed": 2026101608,
+      "terminal_sampling_seed": 2026101708,
+      "search_seed_base": 12570000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 4,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep4",
+      "generation_seed": 2026101509,
+      "initialization_seed": 2026101609,
+      "terminal_sampling_seed": 2026101709,
+      "search_seed_base": 12580000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 4,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep4",
+      "generation_seed": 2026101510,
+      "initialization_seed": 2026101610,
+      "terminal_sampling_seed": 2026101710,
+      "search_seed_base": 12590000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 5,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep5",
+      "generation_seed": 2026101511,
+      "initialization_seed": 2026101611,
+      "terminal_sampling_seed": 2026101711,
+      "search_seed_base": 12600000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 5,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep5",
+      "generation_seed": 2026101512,
+      "initialization_seed": 2026101612,
+      "terminal_sampling_seed": 2026101712,
+      "search_seed_base": 12610000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 6,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep6",
+      "generation_seed": 2026101513,
+      "initialization_seed": 2026101613,
+      "terminal_sampling_seed": 2026101713,
+      "search_seed_base": 12620000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 6,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep6",
+      "generation_seed": 2026101514,
+      "initialization_seed": 2026101614,
+      "terminal_sampling_seed": 2026101714,
+      "search_seed_base": 12630000
+    },
+    {
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 7,
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep7",
+      "generation_seed": 2026101515,
+      "initialization_seed": 2026101615,
+      "terminal_sampling_seed": 2026101715,
+      "search_seed_base": 12640000
+    },
+    {
+      "task": "jnk3",
+      "task_index": 1,
+      "replicate": 7,
+      "cohort_id": "graphga-qualconfirm-jnk3-rep7",
+      "generation_seed": 2026101516,
+      "initialization_seed": 2026101616,
+      "terminal_sampling_seed": 2026101716,
+      "search_seed_base": 12650000
+    }
+  ],
+  "policies": [
+    "Original",
+    "B_joint6plus6",
+    "C_joint6plus6",
+    "B_fixedtask6plus6",
+    "C_fixedtask6plus6"
+  ],
+  "method": {
+    "kernel": "Unchanged method_reproduction_20261003 B/C functions",
+    "trigger": "Joint guiding-RF qualification and audited parent-route failure",
+    "source_RF_cutoffs": {
+      "gsk3b": 0.1,
+      "jnk3": 0.05
+    },
+    "qualification": "Strict candidate RF >=max(source RF, task cutoff); fixed RF >=task cutoff; same source QED-.05, source/stock exclusions, original two-stock dual formation, RF/QED/SMILES descending selection.",
+    "parent_calls": 12,
+    "parent_soft_seconds": 45.0,
+    "candidate_score_slots_per_arm": 8,
+    "candidate_forward_attempts_per_arm": 16,
+    "candidate_calls": [
+      6,
+      6
+    ],
+    "candidate_shared_soft_seconds": 45.0,
+    "stock": "same PaRoutes N1 stock and standard InChIKey derivation",
+    "templates": "same retained SynTwins forward/retro template tables",
+    "route_audit": "Saved native graph reload, route extraction, stock leaves and target exclusion."
+  },
+  "primary_contrast": "B_fixedtask6plus6 minus B_joint6plus6, ten-checkpoint mean intended-task probability >=0.5 AND audited route; no guiding RF conjunct",
+  "secondary_endpoints": [
+    "guiding RF plus audited route",
+    "audited route only",
+    "raw-position and distinct-structure yield",
+    "fixed-source RF qualification ceiling",
+    "source/final QED/scaffolds and known-domain diagnostics"
+  ],
+  "statistics": "16 independent optimizer runs, 8 per fixed task, paired within-run raw yields; task-equal mean primary, Welch-Satterthwaite 95% interval/test; prespecified within-task run bootstrap100000 seed2026101801 sensitivity. Secondary contrasts exploratory, no molecular pseudoreplication; technical unknown bounds retained.",
+  "external_evaluation": "Existing released ten two-task Chemprop checkpoints, only after final selection. Shared ExCAPE source and incomplete original training composition remain limitations.",
+  "historical_reuse": "Named compatible completed formal512, oldGraphGA512, fixed128/512, allocation128, retained128 scores/forward/query/vector observations only; preserve actual origin and earliest exact records, including negatives. No old cohort generation repeated.",
+  "history_limits": "Old8 GraphGA development results excluded from new primary statistical sample; reported independently. Original main-paper and old-prospective primaries unchanged.",
+  "enrollment": "All16 specified runs/1024 retained draws; no outcome-driven extension, dropping task, checkpoint/threshold tuning, seed selection or unseen retries after an unobserved interruption.",
+  "publication": "Private experiment. No public upload or manuscript revision during execution.",
+  "adopted_recipe": false,
+  "user_confirmed_candidate_direction": true,
+  "formal_adoption_requires_after_validation": true
+}

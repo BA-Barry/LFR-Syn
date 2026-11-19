@@ -1,0 +1,25 @@
+run,task,comparison,raw_slots,difference_slots,difference_percentage_points
+gsk3b-rep0,gsk3b,B minus A,64,6,9.375
+gsk3b-rep0,gsk3b,B minus C,64,6,9.375
+gsk3b-rep0,gsk3b,Mix minus B,64,2,3.125
+gsk3b-rep1,gsk3b,B minus A,64,12,18.75
+gsk3b-rep1,gsk3b,B minus C,64,10,15.625
+gsk3b-rep1,gsk3b,Mix minus B,64,0,0.0
+gsk3b-rep2,gsk3b,B minus A,64,20,31.25
+gsk3b-rep2,gsk3b,B minus C,64,6,9.375
+gsk3b-rep2,gsk3b,Mix minus B,64,0,0.0
+gsk3b-rep3,gsk3b,B minus A,64,10,15.625
+gsk3b-rep3,gsk3b,B minus C,64,3,4.6875
+gsk3b-rep3,gsk3b,Mix minus B,64,1,1.5625
+jnk3-rep0,jnk3,B minus A,64,19,29.6875
+jnk3-rep0,jnk3,B minus C,64,8,12.5
+jnk3-rep0,jnk3,Mix minus B,64,-8,-12.5
+jnk3-rep1,jnk3,B minus A,64,9,14.0625
+jnk3-rep1,jnk3,B minus C,64,9,14.0625
+jnk3-rep1,jnk3,Mix minus B,64,-2,-3.125
+jnk3-rep2,jnk3,B minus A,64,18,28.125
+jnk3-rep2,jnk3,B minus C,64,8,12.5
+jnk3-rep2,jnk3,Mix minus B,64,-3,-4.6875
+jnk3-rep3,jnk3,B minus A,64,7,10.9375
+jnk3-rep3,jnk3,B minus C,64,3,4.6875
+jnk3-rep3,jnk3,Mix minus B,64,0,0.0

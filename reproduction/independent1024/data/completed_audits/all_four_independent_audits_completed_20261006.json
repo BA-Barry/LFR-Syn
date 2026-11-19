@@ -1,0 +1,155 @@
+{
+  "status": "all_four_saved_computational_audits_verified",
+  "created_utc": "2026-10-06T07:10:13.834341+00:00",
+  "study": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+  "scope": "Entire independent 16-run/1024-position/five-arm saved computational evidence, with complete native identity/QED/stock/full-ranking checks",
+  "four_actual_passed_audits": {
+    "saved_CPU": {
+      "report": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/saved_CPU_reaudit_after_resume_origin_fix_20261006.json",
+      "report_relative_to_witness": "saved_CPU_reaudit_after_resume_origin_fix_20261006.json",
+      "execution_receipt": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/CPU_audit_provenance_repair_20261006/repair_execution_receipt_20261006.json",
+      "execution_receipt_relative_to_witness": "CPU_audit_provenance_repair_20261006/repair_execution_receipt_20261006.json",
+      "status": "saved_CPU_records_checked",
+      "exit_code": 0,
+      "completed_unix": 1791269543.4455175,
+      "scope": "all_16_independent_runs_1024_sources_original_B_C_pools",
+      "scientific_model_calls": 0,
+      "native_reaction_calls": 0
+    },
+    "native_CPU_properties": {
+      "report": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/native_CPU_properties_reaudit_after_owner_fix_20261006.json",
+      "report_relative_to_witness": "native_CPU_properties_reaudit_after_owner_fix_20261006.json",
+      "execution_receipt": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/native_query_lifetime_repair_20261006/native_property_repair_execution_20261006.json",
+      "execution_receipt_relative_to_witness": "native_query_lifetime_repair_20261006/native_property_repair_execution_20261006.json",
+      "status": "native_CPU_identity_QED_stock_and_saved_weight_ranking_checked",
+      "exit_code": 0,
+      "completed_unix": 1791270314.2224157,
+      "scope": "all_16_runs_1024_saved_original_B_C_pools",
+      "scientific_model_calls": 0,
+      "native_reaction_calls": 0
+    },
+    "saved_native_routes": {
+      "report": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/saved_independent_native_route_audit_20261005.json",
+      "report_relative_to_witness": "saved_independent_native_route_audit_20261005.json",
+      "execution_receipt": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/saved_native_routes_execution_receipt_20261006.json",
+      "execution_receipt_relative_to_witness": "saved_native_routes_execution_receipt_20261006.json",
+      "status": "passed",
+      "exit_code": 0,
+      "completed_unix": 1791269150.783099,
+      "scope": "Complete 16-run/1024-position/5120-row saved-route, qualification, prefix, exact-origin and work audit",
+      "scientific_model_calls": 0,
+      "native_reaction_calls": 0
+    },
+    "saved_endpoints": {
+      "report": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/saved_independent_endpoint_audit_20261005.json",
+      "report_relative_to_witness": "saved_independent_endpoint_audit_20261005.json",
+      "execution_receipt": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/saved_endpoints_execution_receipt_20261006.json",
+      "execution_receipt_relative_to_witness": "saved_endpoints_execution_receipt_20261006.json",
+      "status": "passed",
+      "exit_code": 0,
+      "completed_unix": 1791269251.2523148,
+      "scope": "Complete saved 16-run/1024-position/5120-row endpoint/provenance/diagnostic/run-statistics audit",
+      "scientific_model_calls": 0,
+      "native_reaction_calls": 0
+    }
+  },
+  "generation_already_verified": {
+    "report": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/independent_generation_audit_receipt_20261005.json",
+    "execution_receipt": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/independent_generation_audit_execution_20261005.json",
+    "status": "passed",
+    "exit_code": 0,
+    "independent_runs": 16,
+    "source_positions": 1024
+  },
+  "completed_unix": 1791270314.2224157,
+  "completed_UTC": "2026-10-06T07:05:14.222416+00:00",
+  "completed_Asia_Shanghai": "2026-10-06T15:05:14.222416+08:00",
+  "saved_CPU_source_positions": 1024,
+  "saved_route_policy_rows": 5120,
+  "saved_endpoint_policy_rows": 5120,
+  "native_property_full_stock_rankings_checked": 10710,
+  "technical_unknown_policy_rows": 0,
+  "original_failed_audit_pipeline_preserved": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/witness_reaudit/independent_audit_pipeline_status_20261005.json",
+  "auditor_repairs_only": {
+    "CPU_resume_origin_tests_exit_code": 0,
+    "native_query_owner_regression_exit_code": 0,
+    "scientific_data_or_method_modified": false
+  },
+  "native_audit_new_scientific_work": {
+    "new_RF_predictions": 0,
+    "new_forward_RunReactants_calls": 0,
+    "new_retro_RunReactants_calls": 0,
+    "new_Graph_queries": 0,
+    "new_external_predictions": 0
+  },
+  "native_descriptor_audit_work": {
+    "stock_inventory_raw_rows": 13432,
+    "native_stock_inventory_raw_parses": 13432,
+    "native_stock_inventory_canonicalizations": 13432,
+    "native_inventory_stock_key_calculations": 13432,
+    "native_Morgan_bit_vector_calculations": 15930,
+    "native_Morgan_environment_calculations": 15930,
+    "native_saved_SMILES_parses": 13608,
+    "native_saved_canonicalizations": 13608,
+    "native_stock_key_calculations": 14939,
+    "native_QED_calculations": 14939,
+    "all_exact_replay_root_precursors_checked": 105244,
+    "saved_ranked_stock_references_checked": 27178,
+    "native_SMARTS_template_parses_no_reactions_run": 19,
+    "native_stock_substructure_tests": 32733784,
+    "native_stock_Tanimoto_calculations": 6585138,
+    "full_stock_side_arm_rankings_checked": 10710,
+    "saved_product_references_checked": 18492,
+    "forward_stock_reactant_references_checked": 32432,
+    "native_evaluated_product_references": 16940,
+    "QED_rejected_product_references": 3979,
+    "duplicate_product_exclusions": 1322,
+    "scored_candidate_references_checked": 12961,
+    "planned_candidate_references_checked": 12961,
+    "arms_checked": 2048,
+    "sources_checked": 1024,
+    "products_after_eighth_slot_not_enrolled": 211,
+    "stock_product_exclusions": 19
+  },
+  "native_descriptor_audit_elapsed_seconds": 557.940044465,
+  "formal_candidate_adoption": false,
+  "manuscript_work": "paused_pending_user_decision_and_unified_revision",
+  "biological_activity_or_laboratory_synthesis_established": false,
+  "limits": {
+    "saved_CPU": [
+      "No native RF, attribution model, reaction, Graph or external predictor was executed by this audit. Historical raw RF feedback canonicalization is explicitly counted additional descriptor audit work.",
+      "Version metadata and original fixed paths are compatibility evidence; model/template content bytes were not compared.",
+      "Source/candidate stock/QED/canonicalization and full stock ranking require the separate native descriptor audit.",
+      "Saved attribution prediction/permutation/rank arithmetic is checked; underlying tree-path contribution magnitudes are not independently recomputed without the forest.",
+      "Native RF probabilities and positive-class indices are checked against durable request/completion records. The forest class metadata or model weights are not independently loaded.",
+      "Complete saved native root products establish provenance, not independent enumeration of every retro match or forward correctness.",
+      "Original remote timestamps establish temporal order; relocated backups may have different file modification times and are not interchangeable for this check.",
+      "Passing saved-record checks establishes no biological activity, laboratory synthesis or efficacy endpoint; route/external audits are separate."
+    ],
+    "native_CPU_properties": [
+      "This is additional descriptor/stock matching audit CPU work, not an efficacy experiment or repeated scientific inference.",
+      "Source tree-path attribution magnitudes are saved values. Their downstream Morgan grouping and full stock ranking arithmetic were independently recomputed; the forest was not loaded.",
+      "SMARTS reactant queries were parsed, but native reactions and original root enumeration were not rerun.",
+      "Recorded products are checked for enrollment, QED and stock identity; independent synthesis chemistry, biological activity, route witnesses and ten-checkpoint endpoints are outside this audit."
+    ],
+    "saved_native_routes": [
+      "Saved native route topology, root identity, stock leaves, target exclusion and retained audit semantics are verified; no reaction prediction was repeated.",
+      "Source/candidate RF values and QED are preserved measurements; this route audit does not rerun forests, forward chemistry, attribution, or the RF feature/descriptor runtime.",
+      "Exact asset paths and native runtime versions are checked; model checkpoint contents are not independently authenticated or repredicted.",
+      "Incomplete physical observations retain unknown endpoints and unknown upper cost bounds even if a partial graph contains a route.",
+      "Historical entries without embedded target_role require actual original parent input metadata or original candidate-attempt references; no missing historical role label is invented.",
+      "External predicted-task endpoint arithmetic and independent-run statistics require their separate audit. Native saved routes do not establish laboratory synthesis or activity."
+    ],
+    "saved_endpoints": [
+      "Released checkpoint declaration, exact saved origin vectors, compatible feature/runtime versions and conflicts are checked; no weights were repredicted or independently authenticated.",
+      "Older fold files without model-reference headers require actual saved study metadata plus an exact aggregate binding; absent evidence fails the audit rather than inventing metadata.",
+      "Saved chemical profiles are bound to their physical descriptor cache without recalculating descriptors. Canonical provenance keys must match saved canonical identities.",
+      "The separate native route audit proves saved route/stock/decision semantics; this script does not establish laboratory synthesis or biological activity.",
+      "Sixteen optimizer runs, conditional on two fixed tasks/assets, are the inference units. Repeated positions, repeated products and ten checkpoints are not independent experiments.",
+      "The sole primary is B fixed minus B strict. Secondary comparisons are exploratory and cannot replace an unsupported primary.",
+      "Technical unknowns retain paired identification bounds only; operational source fallbacks do not become observed final-policy properties.",
+      "A within-task 100000-run bootstrap is calculated once and saved by its actual paired effects/seed; it is a sensitivity interval, not independent new scientific evidence."
+    ]
+  },
+  "science_or_audits_executed_to_create_this_completion_receipt": false
+}

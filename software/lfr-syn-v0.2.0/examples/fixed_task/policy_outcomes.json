@@ -1,0 +1,454 @@
+{
+  "rows": [
+    {
+      "sample_id": "graphga-qualconfirm-gsk3b-rep0-r000",
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+      "task": "gsk3b",
+      "replicate": 0,
+      "position": 0,
+      "source_identity": {
+        "sample_id": "graphga-qualconfirm-gsk3b-rep0-r000",
+        "task": "gsk3b",
+        "task_index": 0,
+        "replicate": 0,
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+        "position": 0,
+        "canonical_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+        "valid": true,
+        "task_score": 1.0,
+        "qed": 0.29810018380223346,
+        "search_seed": 12500000,
+        "graph_verified": false,
+        "graph_result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json"
+      },
+      "policy": "B_fixedtask6plus6",
+      "source_solved": false,
+      "source_joint": false,
+      "source_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+      "source_score": 1.0,
+      "source_qed": 0.29810018380223346,
+      "final_smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+      "final_score": 0.76,
+      "final_qed": 0.3434714607233813,
+      "solved": true,
+      "joint": true,
+      "fallback_solved": false,
+      "fallback_joint": false,
+      "replaced": true,
+      "attempts": [
+        {
+          "branch": 0,
+          "candidate": {
+            "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+            "qed": 0.3434714607233813,
+            "root_index": 1,
+            "rank": 0,
+            "rxn_ref": "R85",
+            "reactants": [
+              "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+              "OB(O)c1ccccc1"
+            ],
+            "missing_side_count": 1,
+            "quality_pass": true,
+            "task_score": 0.76,
+            "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/new_scores.json",
+            "task_pass": false,
+            "legacy_task_pass": false,
+            "fixed_task_pass": true,
+            "fixed_task_cutoff": 0.1
+          },
+          "calls_limit": 6,
+          "soft_seconds_requested": 45.0,
+          "query": {
+            "row": 744,
+            "request": {
+              "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+              "seed": 10302005,
+              "calls_limit": 6,
+              "soft_seconds": 45.0
+            },
+            "requested_seed": 12500000,
+            "adopted_seed": 10302005,
+            "current_study_seed_adopted": false,
+            "status": "solved",
+            "model_calls": 1,
+            "search_seconds": 1.9287423080004373,
+            "verified_solved": true,
+            "cost_observation_complete": true,
+            "cache_mode": "explicit_study_exact",
+            "history_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json",
+            "study_query_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json",
+            "physical_origin_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json",
+            "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00744.result.json",
+            "actual_new_calls": 0,
+            "selected_study_record": {
+              "path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json",
+              "request_at_index": {
+                "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "seed": 10302005,
+                "calls_limit": 6,
+                "soft_seconds": 45.0
+              },
+              "status_at_index": "solved",
+              "modern": true,
+              "root_selected_paths": [
+                "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json"
+              ],
+              "root_key_counts": {
+                "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1": 1
+              }
+            },
+            "audit_seconds": 0.1318735469976673,
+            "audit_graph_read_seconds": 4.295511188000091,
+            "new_work": {
+              "model_calls": 0,
+              "graph_read_seconds": 4.295511188000091,
+              "graph_audit_seconds": 0.1318735469976673
+            },
+            "study_seed_adopted": true,
+            "original_result": {
+              "row": 7,
+              "request": {
+                "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "seed": 10302005,
+                "calls_limit": 6,
+                "soft_seconds": 45.0
+              },
+              "requested_seed": 10302005,
+              "adopted_seed": 10302005,
+              "current_study_seed_adopted": false,
+              "status": "solved",
+              "started_unix": 1790879482.1666572,
+              "pid": 6586,
+              "model_calls": 1,
+              "search_seconds": 1.9287423080004373,
+              "verified_solved": true,
+              "cost_observation_complete": true,
+              "history_path": null,
+              "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json",
+              "cache_mode": "new",
+              "solved": true,
+              "query_setup_seconds": 0.005500836999999592,
+              "first_solution_calls": 1,
+              "graph_nodes": 55,
+              "target_in_stock": false,
+              "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.graph.pkl",
+              "saving_seconds": 0.0015744160000394913,
+              "search_status": "solved",
+              "audit_graph_read_seconds": 0.001179649000732752,
+              "audit": {
+                "verified_saved_graph": true,
+                "target": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "leaves": [
+                  "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                  "OB(O)c1ccccc1"
+                ],
+                "alternating_depth": 2,
+                "seconds": 0.0035215750003771973,
+                "steps": [
+                  {
+                    "product": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "reactants": [
+                      "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                      "OB(O)c1ccccc1"
+                    ]
+                  }
+                ]
+              },
+              "audit_seconds": 0.0035584819997893646,
+              "audit_complete": true
+            },
+            "solved": true,
+            "first_solution_calls": 1,
+            "graph_nodes": 55,
+            "original_graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.graph.pkl",
+            "original_result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json",
+            "original_audit": {
+              "verified_saved_graph": true,
+              "target": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+              "leaves": [
+                "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "alternating_depth": 2,
+              "seconds": 0.0035215750003771973,
+              "steps": [
+                {
+                  "product": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                  "reactants": [
+                    "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "OB(O)c1ccccc1"
+                  ]
+                }
+              ]
+            },
+            "old_work": {
+              "model_calls": 1,
+              "search_seconds": 1.9287423080004373,
+              "cost_observation_complete": true,
+              "query_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.result.json"
+            },
+            "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/policy_graph/gpu0/queries/query-00007.graph.pkl",
+            "audit": {
+              "verified_saved_graph": true,
+              "target": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+              "leaves": [
+                "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "alternating_depth": 2,
+              "seconds": 0.10961656399740605,
+              "steps": [
+                {
+                  "product": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                  "reactants": [
+                    "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "OB(O)c1ccccc1"
+                  ]
+                }
+              ]
+            },
+            "study_saved_graph_reaudited": true,
+            "audit_complete": true,
+            "retrieval_seconds": 4.5329821670020465
+          }
+        }
+      ],
+      "status": "replacement_solved",
+      "planning_soft_seconds": 45.0,
+      "logical_model_calls": 1,
+      "actual_new_calls": 0,
+      "logical_search_seconds": 1.9287423080004373,
+      "logical_cost_observation_complete": true,
+      "soft_budget_overrun_seconds": 0.0,
+      "scientific_endpoint_available": true,
+      "qualified_candidate_count_up_to_two": 2,
+      "prespecified_candidates": [
+        {
+          "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+          "qed": 0.3434714607233813,
+          "root_index": 1,
+          "rank": 0,
+          "rxn_ref": "R85",
+          "reactants": [
+            "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+            "OB(O)c1ccccc1"
+          ],
+          "missing_side_count": 1,
+          "quality_pass": true,
+          "task_score": 0.76,
+          "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/new_scores.json",
+          "task_pass": false,
+          "legacy_task_pass": false,
+          "fixed_task_pass": true,
+          "fixed_task_cutoff": 0.1
+        },
+        {
+          "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+          "qed": 0.29601142695310934,
+          "root_index": 1,
+          "rank": 1,
+          "rxn_ref": "R85",
+          "reactants": [
+            "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+            "OB(O)c1ccccc1"
+          ],
+          "missing_side_count": 1,
+          "quality_pass": true,
+          "task_score": 0.49,
+          "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+          "task_pass": false,
+          "legacy_task_pass": false,
+          "fixed_task_pass": true,
+          "fixed_task_cutoff": 0.1
+        }
+      ],
+      "chosen_branch": 0,
+      "qualification": "fixed",
+      "guiding_RF_nondegradation_guarantee": false,
+      "guiding_RF_change": -0.24,
+      "candidate_stage_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/method_outputs/graphga-qualconfirm-gsk3b-rep0/candidate_stage.json",
+      "final_structure_known": true,
+      "operational_fallback_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+      "operational_fallback_score": 1.0,
+      "operational_fallback_qed": 0.29810018380223346,
+      "source_valid": true
+    },
+    {
+      "sample_id": "graphga-qualconfirm-gsk3b-rep0-r000",
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+      "task": "gsk3b",
+      "replicate": 0,
+      "position": 0,
+      "source_identity": {
+        "sample_id": "graphga-qualconfirm-gsk3b-rep0-r000",
+        "task": "gsk3b",
+        "task_index": 0,
+        "replicate": 0,
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+        "position": 0,
+        "canonical_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+        "valid": true,
+        "task_score": 1.0,
+        "qed": 0.29810018380223346,
+        "search_seed": 12500000,
+        "graph_verified": false,
+        "graph_result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json"
+      },
+      "policy": "C_fixedtask6plus6",
+      "source_solved": false,
+      "source_joint": false,
+      "source_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+      "source_score": 1.0,
+      "source_qed": 0.29810018380223346,
+      "final_smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+      "final_score": 0.49,
+      "final_qed": 0.29601142695310934,
+      "solved": true,
+      "joint": true,
+      "fallback_solved": false,
+      "fallback_joint": false,
+      "replaced": true,
+      "attempts": [
+        {
+          "branch": 0,
+          "candidate": {
+            "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+            "qed": 0.29601142695310934,
+            "root_index": 0,
+            "rank": 0,
+            "rxn_ref": "R38",
+            "reactants": [
+              "Brc1ccccc1",
+              "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+            ],
+            "missing_side_count": 1,
+            "quality_pass": true,
+            "task_score": 0.49,
+            "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+            "task_pass": false,
+            "legacy_task_pass": false,
+            "fixed_task_pass": true,
+            "fixed_task_cutoff": 0.1
+          },
+          "calls_limit": 6,
+          "soft_seconds_requested": 45.0,
+          "query": {
+            "row": 745,
+            "request": {
+              "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+              "seed": 12500000,
+              "calls_limit": 6,
+              "soft_seconds": 45.0,
+              "target_role": "candidate"
+            },
+            "requested_seed": 12500000,
+            "adopted_seed": 12500000,
+            "current_study_seed_adopted": false,
+            "status": "solved",
+            "started_unix": 1791265468.1119213,
+            "pid": 10709,
+            "model_calls": 1,
+            "search_seconds": 3.4996485650044633,
+            "verified_solved": true,
+            "cost_observation_complete": true,
+            "history_path": null,
+            "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00745.result.json",
+            "cache_mode": "new",
+            "solved": true,
+            "query_setup_seconds": 0.006120635996921919,
+            "first_solution_calls": 1,
+            "graph_nodes": 61,
+            "target_in_stock": false,
+            "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00745.graph.pkl",
+            "saving_seconds": 0.051509506003640126,
+            "search_status": "solved",
+            "audit_graph_read_seconds": 0.004021692999231163,
+            "audit": {
+              "verified_saved_graph": true,
+              "target": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+              "leaves": [
+                "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                "OB(O)c1ccccc1"
+              ],
+              "alternating_depth": 2,
+              "seconds": 0.013998654001625255,
+              "steps": [
+                {
+                  "product": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+                  "reactants": [
+                    "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                    "OB(O)c1ccccc1"
+                  ]
+                }
+              ]
+            },
+            "audit_seconds": 0.014077890999033116,
+            "audit_complete": true,
+            "actual_new_calls": 1,
+            "retrieval_seconds": 14.791252791997977
+          }
+        }
+      ],
+      "status": "replacement_solved",
+      "planning_soft_seconds": 45.0,
+      "logical_model_calls": 1,
+      "actual_new_calls": 1,
+      "logical_search_seconds": 3.4996485650044633,
+      "logical_cost_observation_complete": true,
+      "soft_budget_overrun_seconds": 0.0,
+      "scientific_endpoint_available": true,
+      "qualified_candidate_count_up_to_two": 2,
+      "prespecified_candidates": [
+        {
+          "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+          "qed": 0.29601142695310934,
+          "root_index": 0,
+          "rank": 0,
+          "rxn_ref": "R38",
+          "reactants": [
+            "Brc1ccccc1",
+            "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+          ],
+          "missing_side_count": 1,
+          "quality_pass": true,
+          "task_score": 0.49,
+          "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+          "task_pass": false,
+          "legacy_task_pass": false,
+          "fixed_task_pass": true,
+          "fixed_task_cutoff": 0.1
+        },
+        {
+          "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCl)ncnc3[nH]2)cc1",
+          "qed": 0.5285368956796538,
+          "root_index": 3,
+          "rank": 0,
+          "rxn_ref": "R48",
+          "reactants": [
+            "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+            "NCCCl"
+          ],
+          "missing_side_count": 2,
+          "quality_pass": true,
+          "task_score": 0.38,
+          "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+          "task_pass": false,
+          "legacy_task_pass": false,
+          "fixed_task_pass": true,
+          "fixed_task_cutoff": 0.1
+        }
+      ],
+      "chosen_branch": 0,
+      "qualification": "fixed",
+      "guiding_RF_nondegradation_guarantee": false,
+      "guiding_RF_change": -0.51,
+      "candidate_stage_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/method_outputs/graphga-qualconfirm-gsk3b-rep0/candidate_stage.json",
+      "final_structure_known": true,
+      "operational_fallback_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+      "operational_fallback_score": 1.0,
+      "operational_fallback_qed": 0.29810018380223346,
+      "source_valid": true
+    }
+  ]
+}

@@ -1,0 +1,2615 @@
+{
+  "sources": [
+    {
+      "source": {
+        "sample_id": "graphga-qualconfirm-gsk3b-rep0-r000",
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+        "task": "gsk3b",
+        "task_index": 0,
+        "replicate": 0,
+        "position": 0,
+        "raw_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+        "canonical_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+        "valid": true,
+        "task_score": 1.0,
+        "qed": 0.29810018380223346,
+        "search_seed": 12500000,
+        "terminal_population_index": 2,
+        "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_generation_RF_scores.jsonl",
+        "requested_search_seed": 12500000,
+        "graph_verified": false,
+        "graph_result": {
+          "row": 0,
+          "request": {
+            "smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+            "seed": 12500000,
+            "calls_limit": 12,
+            "soft_seconds": 45.0,
+            "target_role": "parent"
+          },
+          "requested_seed": 12500000,
+          "adopted_seed": 12500000,
+          "current_study_seed_adopted": false,
+          "status": "unsolved_within_budget",
+          "started_unix": 1791180176.6336393,
+          "pid": 16,
+          "model_calls": 12,
+          "search_seconds": 24.65143207,
+          "verified_solved": false,
+          "cost_observation_complete": true,
+          "history_path": null,
+          "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json",
+          "cache_mode": "new",
+          "solved": false,
+          "query_setup_seconds": 0.11441518600000222,
+          "first_solution_calls": null,
+          "graph_nodes": 411,
+          "target_in_stock": false,
+          "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.graph.pkl",
+          "saving_seconds": 0.006684665999998174,
+          "search_status": "unsolved_within_budget",
+          "audit": {
+            "reported_solved": false,
+            "verified_saved_graph": false,
+            "seconds": 0.0
+          },
+          "audit_seconds": 0.0,
+          "audit_complete": true,
+          "actual_new_calls": 12,
+          "retrieval_seconds": 39.916237323999994
+        },
+        "reported_parent_result": {
+          "row": 0,
+          "request": {
+            "smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+            "seed": 12500000,
+            "calls_limit": 12,
+            "soft_seconds": 45.0,
+            "target_role": "parent"
+          },
+          "requested_seed": 12500000,
+          "adopted_seed": 12500000,
+          "current_study_seed_adopted": false,
+          "status": "unsolved_within_budget",
+          "started_unix": 1791180176.6336393,
+          "pid": 16,
+          "model_calls": 12,
+          "search_seconds": 24.65143207,
+          "verified_solved": false,
+          "cost_observation_complete": true,
+          "history_path": null,
+          "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json",
+          "cache_mode": "new",
+          "solved": false,
+          "query_setup_seconds": 0.11441518600000222,
+          "first_solution_calls": null,
+          "graph_nodes": 411,
+          "target_in_stock": false,
+          "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.graph.pkl",
+          "saving_seconds": 0.006684665999998174,
+          "search_status": "unsolved_within_budget",
+          "audit": {
+            "reported_solved": false,
+            "verified_saved_graph": false,
+            "seconds": 0.0
+          },
+          "audit_seconds": 0.0,
+          "audit_complete": true,
+          "actual_new_calls": 12,
+          "retrieval_seconds": 39.916237323999994
+        },
+        "graph_result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json",
+        "graph_audit": {
+          "reported_solved": false,
+          "verified_saved_graph": false,
+          "seconds": 0.0
+        },
+        "prior_graph_reused": false,
+        "query_seed_adopted": false
+      },
+      "source_qed": 0.29810018380223346,
+      "status": "candidate_scoring_complete",
+      "roots": [
+        {
+          "rxn_ref": "R38",
+          "precursors": [
+            "Brc1ccccc1",
+            "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12"
+          ],
+          "missing_sides": [
+            1
+          ],
+          "root_index": 0,
+          "sides": [
+            {
+              "side": 0,
+              "preserved_stock": true,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "Brc1ccccc1",
+                    "similarity": 1.0,
+                    "retained_weight": 0.0
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "Brc1ccccc1",
+                    "similarity": 1.0,
+                    "retained_weight": 0.0
+                  }
+                ]
+              }
+            },
+            {
+              "side": 1,
+              "preserved_stock": false,
+              "matching_stock_count": 3594,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(Cl)c5c(Cl)n4)ncnc32)cc1",
+                    "similarity": 0.16326530612244897,
+                    "retained_weight": 0.255901844430385
+                  },
+                  {
+                    "smiles": "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "similarity": 0.16842105263157894,
+                    "retained_weight": 0.2558328281112672
+                  },
+                  {
+                    "smiles": "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "similarity": 0.1686746987951807,
+                    "retained_weight": 0.22421430379250976
+                  },
+                  {
+                    "smiles": "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1",
+                    "similarity": 0.19318181818181818,
+                    "retained_weight": 0.2128763009292496
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1",
+                    "similarity": 0.19318181818181818,
+                    "retained_weight": 0.2448653152723254
+                  },
+                  {
+                    "smiles": "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                    "similarity": 0.20930232558139536,
+                    "retained_weight": 0.24277275239494223
+                  },
+                  {
+                    "smiles": "ClCCCOc1ccccc1Nc1nc(Cl)nc2c1ncn2C1CCCC1",
+                    "similarity": 0.18181818181818182,
+                    "retained_weight": 0.23812513761370996
+                  },
+                  {
+                    "smiles": "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "similarity": 0.16842105263157894,
+                    "retained_weight": 0.2267650588338883
+                  }
+                ]
+              }
+            }
+          ],
+          "permutations": [
+            {
+              "environments": [],
+              "weights": [],
+              "permuted_weights": [],
+              "seed": 10202000,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "environments": [],
+              "weights": [],
+              "permuted_weights": [],
+              "seed": 10202001,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "environments": [
+                98513984,
+                198706261,
+                346695770,
+                661311926,
+                725322217,
+                847961216,
+                912632640,
+                951226070,
+                979082601,
+                994494548,
+                1016841875,
+                1100037548,
+                1101907775,
+                1168865894,
+                1182622762,
+                1213407188,
+                1219984293,
+                1528304983,
+                1630528126,
+                1686695143,
+                1868602760,
+                2041434490,
+                2132511834,
+                2164380819,
+                2245384272,
+                2296565457,
+                2355446912,
+                2446961558,
+                2590382258,
+                2649453720,
+                2763854213,
+                2798033138,
+                2909042096,
+                2976033787,
+                3135160699,
+                3176806076,
+                3217380708,
+                3218693969,
+                3489891614,
+                3596485316,
+                3750444818,
+                3795123245,
+                3892562910,
+                3908647167,
+                3991997381,
+                3999906991,
+                4121755354,
+                4172908327,
+                4239209328
+              ],
+              "weights": [
+                0.0,
+                0.0,
+                0.004468611617608752,
+                0.0,
+                0.019201120293230955,
+                0.006272755374444628,
+                0.0,
+                0.00031489509276920403,
+                0.0,
+                0.0,
+                0.00014925373134328402,
+                0.022521994587363005,
+                0.020627921279053822,
+                0.020981769033099625,
+                0.0,
+                0.012085907671246723,
+                0.02134287853265955,
+                0.04524303384699621,
+                0.0053652597402597405,
+                0.0,
+                0.018798657712306203,
+                0.005404340066413418,
+                0.04798930794199627,
+                0.04629560160662884,
+                0.0,
+                0.03799447455789542,
+                0.006272755374444628,
+                0.0,
+                0.06771384935055376,
+                0.0,
+                0.0020925628773831597,
+                0.0,
+                0.0,
+                0.0017963404360909945,
+                0.04279830431114004,
+                0.024490185099464667,
+                0.0,
+                0.00047251845775225565,
+                0.0,
+                0.07081482036762876,
+                0.0375980420826725,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0027909641512522516,
+                0.0,
+                0.0
+              ],
+              "permuted_weights": [
+                0.020627921279053822,
+                0.06771384935055376,
+                0.00014925373134328402,
+                0.006272755374444628,
+                0.020981769033099625,
+                0.0375980420826725,
+                0.024490185099464667,
+                0.00047251845775225565,
+                0.006272755374444628,
+                0.04524303384699621,
+                0.0020925628773831597,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.07081482036762876,
+                0.03799447455789542,
+                0.0,
+                0.0,
+                0.0,
+                0.02134287853265955,
+                0.0027909641512522516,
+                0.0,
+                0.04798930794199627,
+                0.004468611617608752,
+                0.0,
+                0.0,
+                0.0017963404360909945,
+                0.0,
+                0.018798657712306203,
+                0.0,
+                0.022521994587363005,
+                0.0,
+                0.0,
+                0.0,
+                0.0053652597402597405,
+                0.00031489509276920403,
+                0.0,
+                0.012085907671246723,
+                0.019201120293230955,
+                0.04629560160662884,
+                0.0,
+                0.005404340066413418,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.04279830431114004
+              ],
+              "seed": 10202002,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ],
+          "B_C_same_lists": false
+        },
+        {
+          "rxn_ref": "R85",
+          "precursors": [
+            "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12",
+            "OB(O)c1ccccc1"
+          ],
+          "missing_sides": [
+            0
+          ],
+          "root_index": 1,
+          "sides": [
+            {
+              "side": 0,
+              "preserved_stock": false,
+              "matching_stock_count": 1379,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "similarity": 0.16842105263157894,
+                    "retained_weight": 0.2558328281112672
+                  },
+                  {
+                    "smiles": "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                    "similarity": 0.20930232558139536,
+                    "retained_weight": 0.21272704719790633
+                  },
+                  {
+                    "smiles": "Brc1ncnc2[nH]cnc12",
+                    "similarity": 0.1875,
+                    "retained_weight": 0.21024586550996652
+                  },
+                  {
+                    "smiles": "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                    "similarity": 0.1518987341772152,
+                    "retained_weight": 0.2078435201692709
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                    "similarity": 0.20930232558139536,
+                    "retained_weight": 0.24366528069025828
+                  },
+                  {
+                    "smiles": "Fc1nc(NCc2ccccc2Cl)ccc1Br",
+                    "similarity": 0.1891891891891892,
+                    "retained_weight": 0.227639290621732
+                  },
+                  {
+                    "smiles": "O=C(Cc1ccccc1)Nc1cncc(Br)c1",
+                    "similarity": 0.17333333333333334,
+                    "retained_weight": 0.2190507232255121
+                  },
+                  {
+                    "smiles": "O=C(Nc1ccc(Br)cn1)c1cccc(OCc2ccccc2)c1[N+](=O)[O-]",
+                    "similarity": 0.15555555555555556,
+                    "retained_weight": 0.2190507232255121
+                  }
+                ]
+              }
+            },
+            {
+              "side": 1,
+              "preserved_stock": true,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "OB(O)c1ccccc1",
+                    "similarity": 1.0,
+                    "retained_weight": 0.0
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "OB(O)c1ccccc1",
+                    "similarity": 1.0,
+                    "retained_weight": 0.0
+                  }
+                ]
+              }
+            }
+          ],
+          "permutations": [
+            {
+              "environments": [],
+              "weights": [],
+              "permuted_weights": [],
+              "seed": 10202010,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "environments": [
+                98513984,
+                198706261,
+                346695770,
+                661311926,
+                725322217,
+                847961216,
+                912632640,
+                951226070,
+                979082601,
+                994494548,
+                1016841875,
+                1100037548,
+                1101907775,
+                1168865894,
+                1182622762,
+                1213407188,
+                1219984293,
+                1528304983,
+                1630528126,
+                1686695143,
+                1868602760,
+                2041434490,
+                2132511834,
+                2164380819,
+                2245384272,
+                2296565457,
+                2355446912,
+                2446961558,
+                2590382258,
+                2649453720,
+                2763854213,
+                2798033138,
+                2909042096,
+                2976033787,
+                3135160699,
+                3176806076,
+                3217380708,
+                3218693969,
+                3489891614,
+                3596485316,
+                3750444818,
+                3795123245,
+                3892562910,
+                3908647167,
+                3991997381,
+                3999906991,
+                4121755354,
+                4172908327,
+                4239209328
+              ],
+              "weights": [
+                0.0,
+                0.0,
+                0.004468611617608752,
+                0.0,
+                0.019201120293230955,
+                0.006272755374444628,
+                0.0,
+                0.00031489509276920403,
+                0.0,
+                0.0,
+                0.00014925373134328402,
+                0.022521994587363005,
+                0.020627921279053822,
+                0.020981769033099625,
+                0.0,
+                0.012085907671246723,
+                0.02134287853265955,
+                0.04524303384699621,
+                0.0053652597402597405,
+                0.0,
+                0.018798657712306203,
+                0.005404340066413418,
+                0.04798930794199627,
+                0.04629560160662884,
+                0.0,
+                0.03799447455789542,
+                0.006272755374444628,
+                0.0,
+                0.06771384935055376,
+                0.0,
+                0.0020925628773831597,
+                0.0,
+                0.0,
+                0.0017963404360909945,
+                0.04279830431114004,
+                0.024490185099464667,
+                0.0,
+                0.00047251845775225565,
+                0.0,
+                0.07081482036762876,
+                0.0375980420826725,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0027909641512522516,
+                0.0,
+                0.0
+              ],
+              "permuted_weights": [
+                0.0,
+                0.024490185099464667,
+                0.0,
+                0.00031489509276920403,
+                0.0020925628773831597,
+                0.004468611617608752,
+                0.006272755374444628,
+                0.04629560160662884,
+                0.0053652597402597405,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.018798657712306203,
+                0.04524303384699621,
+                0.0,
+                0.04279830431114004,
+                0.0,
+                0.0,
+                0.0,
+                0.06771384935055376,
+                0.02134287853265955,
+                0.0,
+                0.0,
+                0.0,
+                0.03799447455789542,
+                0.006272755374444628,
+                0.0,
+                0.0,
+                0.07081482036762876,
+                0.0017963404360909945,
+                0.005404340066413418,
+                0.0,
+                0.0,
+                0.0,
+                0.020981769033099625,
+                0.020627921279053822,
+                0.04798930794199627,
+                0.0375980420826725,
+                0.0,
+                0.022521994587363005,
+                0.00047251845775225565,
+                0.00014925373134328402,
+                0.0,
+                0.0,
+                0.019201120293230955,
+                0.012085907671246723,
+                0.0027909641512522516,
+                0.0
+              ],
+              "seed": 10202011,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "environments": [],
+              "weights": [],
+              "permuted_weights": [],
+              "seed": 10202012,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "B_C_same_lists": false
+        },
+        {
+          "rxn_ref": "R45",
+          "precursors": [
+            "Brc1ncnc2[nH]c(-c3ccccc3)nc12",
+            "NCC1=CC(NCc2ccccc2)=CC1CCCl"
+          ],
+          "missing_sides": [
+            0,
+            1
+          ],
+          "root_index": 2,
+          "sides": [
+            {
+              "side": 0,
+              "preserved_stock": false,
+              "matching_stock_count": 3385,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                    "similarity": 0.3333333333333333,
+                    "retained_weight": 0.30846765651247454
+                  },
+                  {
+                    "smiles": "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "similarity": 0.19672131147540983,
+                    "retained_weight": 0.27341472311425996
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "similarity": 0.19672131147540983,
+                    "retained_weight": 0.36709240735978277
+                  },
+                  {
+                    "smiles": "Brc1ncnc2[nH]cnc12",
+                    "similarity": 0.40540540540540543,
+                    "retained_weight": 0.31278546698876497
+                  }
+                ]
+              }
+            },
+            {
+              "side": 1,
+              "preserved_stock": false,
+              "matching_stock_count": 2621,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "c1ccc(CNCCNc2ccccc2)cc1",
+                    "similarity": 0.2826086956521739,
+                    "retained_weight": 0.036107613406167444
+                  },
+                  {
+                    "smiles": "c1ccc(CN2CCC(NCCNc3ccccc3)CC2)cc1",
+                    "similarity": 0.23214285714285715,
+                    "retained_weight": 0.032538694101998694
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC",
+                    "similarity": 0.1643835616438356,
+                    "retained_weight": 0.027043893880470564
+                  },
+                  {
+                    "smiles": "Nc1cc(NCC2CCNCC2)c(Cl)cn1",
+                    "similarity": 0.125,
+                    "retained_weight": 0.026954881603818197
+                  }
+                ]
+              }
+            }
+          ],
+          "permutations": [
+            {
+              "environments": [
+                98513984,
+                951226070,
+                2763854213,
+                3217380708,
+                3218693969,
+                3999906991
+              ],
+              "weights": [
+                0.0,
+                0.00031489509276920403,
+                0.0020925628773831597,
+                0.0,
+                0.00047251845775225565,
+                0.0
+              ],
+              "permuted_weights": [
+                0.00047251845775225565,
+                0.0,
+                0.00031489509276920403,
+                0.0,
+                0.0,
+                0.0020925628773831597
+              ],
+              "seed": 10202020,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "environments": [
+                688750242,
+                725322217,
+                847934112,
+                1100037548,
+                1101907775,
+                2041434490,
+                2132511834,
+                2164380819,
+                2234274018,
+                2296565457,
+                2353112200,
+                2355446912,
+                2984966880,
+                3135160699,
+                3176806076,
+                3273018953,
+                3750444818,
+                3814888878
+              ],
+              "weights": [
+                0.038005845274136474,
+                0.019201120293230955,
+                0.07007921523311694,
+                0.022521994587363005,
+                0.020627921279053822,
+                0.005404340066413418,
+                0.04798930794199627,
+                0.04629560160662884,
+                0.03984869947459981,
+                0.03799447455789542,
+                0.049349673053093436,
+                0.006272755374444628,
+                0.038885176433856,
+                0.04279830431114004,
+                0.024490185099464667,
+                0.038046361763317334,
+                0.0375980420826725,
+                0.06938298786632738
+              ],
+              "permuted_weights": [
+                0.020627921279053822,
+                0.038005845274136474,
+                0.024490185099464667,
+                0.019201120293230955,
+                0.04629560160662884,
+                0.04279830431114004,
+                0.03799447455789542,
+                0.049349673053093436,
+                0.005404340066413418,
+                0.022521994587363005,
+                0.06938298786632738,
+                0.03984869947459981,
+                0.038046361763317334,
+                0.07007921523311694,
+                0.0375980420826725,
+                0.038885176433856,
+                0.04798930794199627,
+                0.006272755374444628
+              ],
+              "seed": 10202021,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "environments": [
+                198706261,
+                661311926,
+                847961216,
+                912632640,
+                979082601,
+                994494548,
+                1016841875,
+                1182622762,
+                1213407188,
+                1630528126,
+                1686695143,
+                1868602760,
+                2245384272,
+                2446961558,
+                2649453720,
+                2798033138,
+                2909042096,
+                2976033787,
+                3795123245,
+                3892562910,
+                3908647167,
+                3991997381,
+                4121755354,
+                4172908327,
+                4239209328
+              ],
+              "weights": [
+                0.0,
+                0.0,
+                0.006272755374444628,
+                0.0,
+                0.0,
+                0.0,
+                0.00014925373134328402,
+                0.0,
+                0.012085907671246723,
+                0.0053652597402597405,
+                0.0,
+                0.018798657712306203,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0017963404360909945,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0027909641512522516,
+                0.0,
+                0.0
+              ],
+              "permuted_weights": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.012085907671246723,
+                0.0053652597402597405,
+                0.0,
+                0.0,
+                0.00014925373134328402,
+                0.0,
+                0.0027909641512522516,
+                0.0,
+                0.006272755374444628,
+                0.0017963404360909945,
+                0.0,
+                0.0,
+                0.018798657712306203,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seed": 10202022,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                2,
+                2
+              ]
+            }
+          ],
+          "B_C_same_lists": false
+        },
+        {
+          "rxn_ref": "R48",
+          "precursors": [
+            "Clc1ncnc2[nH]c(-c3ccccc3)nc12",
+            "NCC1=CC(NCc2ccccc2)=CC1CCCl"
+          ],
+          "missing_sides": [
+            0,
+            1
+          ],
+          "root_index": 3,
+          "sides": [
+            {
+              "side": 0,
+              "preserved_stock": false,
+              "matching_stock_count": 799,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "similarity": 0.30357142857142855,
+                    "retained_weight": 0.27356397684560324
+                  },
+                  {
+                    "smiles": "Clc1ncnc2[nH]cnc12",
+                    "similarity": 0.40540540540540543,
+                    "retained_weight": 0.21039511924130982
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "similarity": 0.30357142857142855,
+                    "retained_weight": 0.2905369617470204
+                  },
+                  {
+                    "smiles": "Nc1nc(F)nc2[nH]c(Cc3ccc4c(c3)OCO4)nc12",
+                    "similarity": 0.15873015873015872,
+                    "retained_weight": 0.248075449948098
+                  }
+                ]
+              }
+            },
+            {
+              "side": 1,
+              "preserved_stock": false,
+              "matching_stock_count": 1623,
+              "choices": {
+                "task_contribution": [
+                  {
+                    "smiles": "c1ccc(CNCCNc2ccccc2)cc1",
+                    "similarity": 0.2826086956521739,
+                    "retained_weight": 0.036107613406167444
+                  },
+                  {
+                    "smiles": "c1ccc(CN2CCC(NCCNc3ccccc3)CC2)cc1",
+                    "similarity": 0.23214285714285715,
+                    "retained_weight": 0.032538694101998694
+                  }
+                ],
+                "permuted_contribution": [
+                  {
+                    "smiles": "NCCCl",
+                    "similarity": 0.15789473684210525,
+                    "retained_weight": 0.018798657712306203
+                  },
+                  {
+                    "smiles": "NCCCCl",
+                    "similarity": 0.14634146341463414,
+                    "retained_weight": 0.018798657712306203
+                  }
+                ]
+              }
+            }
+          ],
+          "permutations": [
+            {
+              "environments": [
+                98513984,
+                951226070,
+                1016841875,
+                2763854213,
+                3217380708,
+                3218693969,
+                3999906991
+              ],
+              "weights": [
+                0.0,
+                0.00031489509276920403,
+                0.00014925373134328402,
+                0.0020925628773831597,
+                0.0,
+                0.00047251845775225565,
+                0.0
+              ],
+              "permuted_weights": [
+                0.00047251845775225565,
+                0.0020925628773831597,
+                0.0,
+                0.0,
+                0.00014925373134328402,
+                0.0,
+                0.00031489509276920403
+              ],
+              "seed": 10202030,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                3,
+                0
+              ]
+            },
+            {
+              "environments": [
+                688750242,
+                725322217,
+                847934112,
+                1100037548,
+                1101907775,
+                2041434490,
+                2132511834,
+                2164380819,
+                2234274018,
+                2296565457,
+                2353112200,
+                2355446912,
+                2984966880,
+                3135160699,
+                3176806076,
+                3273018953,
+                3750444818,
+                3814888878
+              ],
+              "weights": [
+                0.038005845274136474,
+                0.019201120293230955,
+                0.07007921523311694,
+                0.022521994587363005,
+                0.020627921279053822,
+                0.005404340066413418,
+                0.04798930794199627,
+                0.04629560160662884,
+                0.03984869947459981,
+                0.03799447455789542,
+                0.049349673053093436,
+                0.006272755374444628,
+                0.038885176433856,
+                0.04279830431114004,
+                0.024490185099464667,
+                0.038046361763317334,
+                0.0375980420826725,
+                0.06938298786632738
+              ],
+              "permuted_weights": [
+                0.019201120293230955,
+                0.022521994587363005,
+                0.038046361763317334,
+                0.006272755374444628,
+                0.04798930794199627,
+                0.024490185099464667,
+                0.04279830431114004,
+                0.03799447455789542,
+                0.06938298786632738,
+                0.07007921523311694,
+                0.005404340066413418,
+                0.03984869947459981,
+                0.049349673053093436,
+                0.038005845274136474,
+                0.020627921279053822,
+                0.04629560160662884,
+                0.038885176433856,
+                0.0375980420826725
+              ],
+              "seed": 10202031,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                3,
+                1
+              ]
+            },
+            {
+              "environments": [
+                198706261,
+                661311926,
+                847961216,
+                912632640,
+                979082601,
+                994494548,
+                1182622762,
+                1213407188,
+                1630528126,
+                1686695143,
+                1868602760,
+                2245384272,
+                2446961558,
+                2649453720,
+                2798033138,
+                2909042096,
+                2976033787,
+                3795123245,
+                3892562910,
+                3908647167,
+                3991997381,
+                4121755354,
+                4172908327,
+                4239209328
+              ],
+              "weights": [
+                0.0,
+                0.0,
+                0.006272755374444628,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.012085907671246723,
+                0.0053652597402597405,
+                0.0,
+                0.018798657712306203,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0017963404360909945,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0027909641512522516,
+                0.0,
+                0.0
+              ],
+              "permuted_weights": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.006272755374444628,
+                0.0053652597402597405,
+                0.0,
+                0.0,
+                0.0,
+                0.012085907671246723,
+                0.0,
+                0.0,
+                0.018798657712306203,
+                0.0,
+                0.0,
+                0.0,
+                0.0017963404360909945,
+                0.0027909641512522516,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seed": 10202032,
+              "seed_coordinates": [
+                0,
+                0,
+                0,
+                3,
+                2
+              ]
+            }
+          ],
+          "B_C_same_lists": false
+        }
+      ],
+      "arms": {
+        "task_contribution": {
+          "planned_candidates": [
+            {
+              "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+              "qed": 0.3434714607233813,
+              "root_index": 1,
+              "rank": 0,
+              "rxn_ref": "R85",
+              "reactants": [
+                "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "c1ccc(CN(CCNc2ccccc2)c2cccc(-c3nc4ccccc4[nH]3)c2)cc1",
+              "qed": 0.3085973601102203,
+              "root_index": 2,
+              "rank": 0,
+              "rxn_ref": "R45",
+              "reactants": [
+                "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true
+            },
+            {
+              "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+              "qed": 0.29601142695310934,
+              "root_index": 1,
+              "rank": 1,
+              "rxn_ref": "R85",
+              "reactants": [
+                "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(-c4ccccc4)ncnc3[nH]2)cc1",
+              "qed": 0.5552327233401986,
+              "root_index": 0,
+              "rank": 2,
+              "rxn_ref": "R38",
+              "reactants": [
+                "Brc1ccccc1",
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "c1ccc(-c2ncnc3[nH]cnc23)cc1",
+              "qed": 0.6473789295391943,
+              "root_index": 1,
+              "rank": 2,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Brc1ncnc2[nH]cnc12",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "c1ccc(CN(CCNc2ccccc2)c2ncnc3[nH]cnc23)cc1",
+              "qed": 0.5371253499595365,
+              "root_index": 3,
+              "rank": 2,
+              "rxn_ref": "R48",
+              "reactants": [
+                "Clc1ncnc2[nH]cnc12",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true
+            },
+            {
+              "smiles": "Fc1cc2c(Nc3ccc(-c4ccccc4)c(Br)c3)ncnc2cn1",
+              "qed": 0.47624499664096853,
+              "root_index": 1,
+              "rank": 3,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "Fc1cc2c(Nc3ccc(Br)c(-c4ccccc4)c3)ncnc2cn1",
+              "qed": 0.47624499664096853,
+              "root_index": 1,
+              "rank": 3,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            }
+          ],
+          "forward_attempts": [
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 0,
+              "reactants": [
+                "Brc1ccccc1",
+                "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(Cl)c5c(Cl)n4)ncnc32)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(-c6ccccc6)c5c(Cl)n4)ncnc32)cc1",
+                "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(Cl)c5c(-c5ccccc5)n4)ncnc32)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(-c6ccccc6)c5c(Cl)n4)ncnc32)cc1",
+                  "qed": 0.23000228427020852,
+                  "root_index": 0,
+                  "rank": 0,
+                  "rxn_ref": "R38",
+                  "reactants": [
+                    "Brc1ccccc1",
+                    "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(Cl)c5c(Cl)n4)ncnc32)cc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": false
+                },
+                {
+                  "smiles": "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(Cl)c5c(-c5ccccc5)n4)ncnc32)cc1",
+                  "qed": 0.2458706900080286,
+                  "root_index": 0,
+                  "rank": 0,
+                  "rxn_ref": "R38",
+                  "reactants": [
+                    "Brc1ccccc1",
+                    "COc1ccc(Cn2cnc3c(N[C@@H](C)c4cc5cccc(Cl)c5c(Cl)n4)ncnc32)cc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": false
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 0,
+              "reactants": [
+                "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+                  "qed": 0.3434714607233813,
+                  "root_index": 1,
+                  "rank": 0,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R45",
+              "root_index": 2,
+              "rank": 0,
+              "reactants": [
+                "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "c1ccc(CN(CCNc2ccccc2)c2cccc(-c3nc4ccccc4[nH]3)c2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "c1ccc(CN(CCNc2ccccc2)c2cccc(-c3nc4ccccc4[nH]3)c2)cc1",
+                  "qed": 0.3085973601102203,
+                  "root_index": 2,
+                  "rank": 0,
+                  "rxn_ref": "R45",
+                  "reactants": [
+                    "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                    "c1ccc(CNCCNc2ccccc2)cc1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R48",
+              "root_index": 3,
+              "rank": 0,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(N(CCNc4ccccc4)Cc4ccccc4)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(N(CCNc4ccccc4)Cc4ccccc4)ncnc3[nH]2)cc1",
+                  "qed": 0.2360392219139972,
+                  "root_index": 3,
+                  "rank": 0,
+                  "rxn_ref": "R48",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "c1ccc(CNCCNc2ccccc2)cc1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": false
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 1,
+              "reactants": [
+                "Brc1ccccc1",
+                "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1"
+              ],
+              "cache_hit": true,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1",
+              "products": [
+                "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1"
+              ],
+              "forward_error": null,
+              "evaluated_products": []
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 1,
+              "reactants": [
+                "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+                  "qed": 0.29601142695310934,
+                  "root_index": 1,
+                  "rank": 1,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R45",
+              "root_index": 2,
+              "rank": 1,
+              "reactants": [
+                "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                "c1ccc(CN2CCC(NCCNc3ccccc3)CC2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "c1ccc(CN2CCC(N(CCNc3ccccc3)c3cccc(-c4nc5ccccc5[nH]4)c3)CC2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "c1ccc(CN2CCC(N(CCNc3ccccc3)c3cccc(-c4nc5ccccc5[nH]4)c3)CC2)cc1",
+                  "qed": 0.23283387468650082,
+                  "root_index": 2,
+                  "rank": 1,
+                  "rxn_ref": "R45",
+                  "reactants": [
+                    "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                    "c1ccc(CN2CCC(NCCNc3ccccc3)CC2)cc1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": false
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R48",
+              "root_index": 3,
+              "rank": 1,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "c1ccc(CN2CCC(NCCNc3ccccc3)CC2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(N(CCNc4ccccc4)C4CCN(Cc5ccccc5)CC4)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(N(CCNc4ccccc4)C4CCN(Cc5ccccc5)CC4)ncnc3[nH]2)cc1",
+                  "qed": 0.17699243917065588,
+                  "root_index": 3,
+                  "rank": 1,
+                  "rxn_ref": "R48",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "c1ccc(CN2CCC(NCCNc3ccccc3)CC2)cc1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": false
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 2,
+              "reactants": [
+                "Brc1ccccc1",
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(-c4ccccc4)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(-c4ccccc4)ncnc3[nH]2)cc1",
+                  "qed": 0.5552327233401986,
+                  "root_index": 0,
+                  "rank": 2,
+                  "rxn_ref": "R38",
+                  "reactants": [
+                    "Brc1ccccc1",
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 2,
+              "reactants": [
+                "Brc1ncnc2[nH]cnc12",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "c1ccc(-c2ncnc3[nH]cnc23)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "c1ccc(-c2ncnc3[nH]cnc23)cc1",
+                  "qed": 0.6473789295391943,
+                  "root_index": 1,
+                  "rank": 2,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "Brc1ncnc2[nH]cnc12",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R45",
+              "root_index": 2,
+              "rank": 2,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(N(CCNc4ccccc4)Cc4ccccc4)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": []
+            },
+            {
+              "rxn_ref": "R48",
+              "root_index": 3,
+              "rank": 2,
+              "reactants": [
+                "Clc1ncnc2[nH]cnc12",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "c1ccc(CN(CCNc2ccccc2)c2ncnc3[nH]cnc23)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "c1ccc(CN(CCNc2ccccc2)c2ncnc3[nH]cnc23)cc1",
+                  "qed": 0.5371253499595365,
+                  "root_index": 3,
+                  "rank": 2,
+                  "rxn_ref": "R48",
+                  "reactants": [
+                    "Clc1ncnc2[nH]cnc12",
+                    "c1ccc(CNCCNc2ccccc2)cc1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 3,
+              "reactants": [
+                "Brc1ccccc1",
+                "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": []
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 3,
+              "reactants": [
+                "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "Fc1cc2c(Nc3ccc(-c4ccccc4)c(Br)c3)ncnc2cn1",
+                "Fc1cc2c(Nc3ccc(Br)c(-c4ccccc4)c3)ncnc2cn1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "Fc1cc2c(Nc3ccc(-c4ccccc4)c(Br)c3)ncnc2cn1",
+                  "qed": 0.47624499664096853,
+                  "root_index": 1,
+                  "rank": 3,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                },
+                {
+                  "smiles": "Fc1cc2c(Nc3ccc(Br)c(-c4ccccc4)c3)ncnc2cn1",
+                  "qed": 0.47624499664096853,
+                  "root_index": 1,
+                  "rank": 3,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            }
+          ],
+          "costs": {
+            "logical_forward_attempts": 14,
+            "new_forward_attempts": 13,
+            "cached_forward_attempts": 1,
+            "logical_score_slots": 8,
+            "ranking_seconds": 0.04866925599890237,
+            "new_forward_seconds": 5.246050454998112,
+            "new_forward_errors": 0,
+            "logical_source_attributions": 1
+          },
+          "scored_candidates": [
+            {
+              "smiles": "O=C(Cc1cc(Nc2ncnc3cc(-c4ccccc4)ccc23)n[nH]1)Nc1cccc(F)c1",
+              "qed": 0.3434714607233813,
+              "root_index": 1,
+              "rank": 0,
+              "rxn_ref": "R85",
+              "reactants": [
+                "O=C(Cc1cc(Nc2ncnc3cc(Br)ccc23)n[nH]1)Nc1cccc(F)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.76,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "c1ccc(CN(CCNc2ccccc2)c2cccc(-c3nc4ccccc4[nH]3)c2)cc1",
+              "qed": 0.3085973601102203,
+              "root_index": 2,
+              "rank": 0,
+              "rxn_ref": "R45",
+              "reactants": [
+                "Brc1cccc(-c2nc3ccccc3[nH]2)c1",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true,
+              "task_score": 0.08,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+              "qed": 0.29601142695310934,
+              "root_index": 1,
+              "rank": 1,
+              "rxn_ref": "R85",
+              "reactants": [
+                "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.49,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(-c4ccccc4)ncnc3[nH]2)cc1",
+              "qed": 0.5552327233401986,
+              "root_index": 0,
+              "rank": 2,
+              "rxn_ref": "R38",
+              "reactants": [
+                "Brc1ccccc1",
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.34,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "c1ccc(-c2ncnc3[nH]cnc23)cc1",
+              "qed": 0.6473789295391943,
+              "root_index": 1,
+              "rank": 2,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Brc1ncnc2[nH]cnc12",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.44,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "c1ccc(CN(CCNc2ccccc2)c2ncnc3[nH]cnc23)cc1",
+              "qed": 0.5371253499595365,
+              "root_index": 3,
+              "rank": 2,
+              "rxn_ref": "R48",
+              "reactants": [
+                "Clc1ncnc2[nH]cnc12",
+                "c1ccc(CNCCNc2ccccc2)cc1"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true,
+              "task_score": 0.33,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "Fc1cc2c(Nc3ccc(-c4ccccc4)c(Br)c3)ncnc2cn1",
+              "qed": 0.47624499664096853,
+              "root_index": 1,
+              "rank": 3,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.33,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "Fc1cc2c(Nc3ccc(Br)c(-c4ccccc4)c3)ncnc2cn1",
+              "qed": 0.47624499664096853,
+              "root_index": 1,
+              "rank": 3,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Fc1cc2c(Nc3ccc(Br)c(Br)c3)ncnc2cn1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.36,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            }
+          ],
+          "best_candidate": null
+        },
+        "permuted_contribution": {
+          "planned_candidates": [
+            {
+              "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+              "qed": 0.29601142695310934,
+              "root_index": 0,
+              "rank": 0,
+              "rxn_ref": "R38",
+              "reactants": [
+                "Brc1ccccc1",
+                "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCl)ncnc3[nH]2)cc1",
+              "qed": 0.5285368956796538,
+              "root_index": 3,
+              "rank": 0,
+              "rxn_ref": "R48",
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "NCCCl"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true
+            },
+            {
+              "smiles": "Fc1nc(NCc2ccccc2Cl)ccc1-c1ccccc1",
+              "qed": 0.6735780541500069,
+              "root_index": 1,
+              "rank": 1,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Fc1nc(NCc2ccccc2Cl)ccc1Br",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(N4CCC(CNc5cc(N)ncc5Cl)CC4)ncnc3[nH]2)cc1",
+              "qed": 0.30715398556192997,
+              "root_index": 2,
+              "rank": 1,
+              "rxn_ref": "R45",
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "Nc1cc(NCC2CCNCC2)c(Cl)cn1"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCCl)ncnc3[nH]2)cc1",
+              "qed": 0.38080312674591593,
+              "root_index": 3,
+              "rank": 1,
+              "rxn_ref": "R48",
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "NCCCCl"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true
+            },
+            {
+              "smiles": "ClCCCOc1ccccc1Nc1nc(-c2ccccc2)nc2c1ncn2C1CCCC1",
+              "qed": 0.25125306993211327,
+              "root_index": 0,
+              "rank": 2,
+              "rxn_ref": "R38",
+              "reactants": [
+                "Brc1ccccc1",
+                "ClCCCOc1ccccc1Nc1nc(Cl)nc2c1ncn2C1CCCC1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "O=C(Cc1ccccc1)Nc1cncc(-c2ccccc2)c1",
+              "qed": 0.790034699622958,
+              "root_index": 1,
+              "rank": 2,
+              "rxn_ref": "R85",
+              "reactants": [
+                "O=C(Cc1ccccc1)Nc1cncc(Br)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true
+            },
+            {
+              "smiles": "CCOP(=O)(OCC)N(c1ncnc2[nH]cnc12)C1CN(C(=O)OCc2ccccc2)CCC1Cl",
+              "qed": 0.3222695325322926,
+              "root_index": 2,
+              "rank": 2,
+              "rxn_ref": "R45",
+              "reactants": [
+                "Brc1ncnc2[nH]cnc12",
+                "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true
+            }
+          ],
+          "forward_attempts": [
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 0,
+              "reactants": [
+                "Brc1ccccc1",
+                "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "cache_hit": true,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+                  "qed": 0.29601142695310934,
+                  "root_index": 0,
+                  "rank": 0,
+                  "rxn_ref": "R38",
+                  "reactants": [
+                    "Brc1ccccc1",
+                    "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 0,
+              "reactants": [
+                "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": true,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": []
+            },
+            {
+              "rxn_ref": "R45",
+              "root_index": 2,
+              "rank": 0,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(N(C4CN(C(=O)OCc5ccccc5)CCC4Cl)P(=O)(OCC)OCC)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(N(C4CN(C(=O)OCc5ccccc5)CCC4Cl)P(=O)(OCC)OCC)ncnc3[nH]2)cc1",
+                  "qed": 0.0973343476901472,
+                  "root_index": 2,
+                  "rank": 0,
+                  "rxn_ref": "R45",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": false
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R48",
+              "root_index": 3,
+              "rank": 0,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "NCCCl"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(NCCCl)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCl)ncnc3[nH]2)cc1",
+                  "qed": 0.5285368956796538,
+                  "root_index": 3,
+                  "rank": 0,
+                  "rxn_ref": "R48",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "NCCCl"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 1,
+              "reactants": [
+                "Brc1ccccc1",
+                "COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": []
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 1,
+              "reactants": [
+                "Fc1nc(NCc2ccccc2Cl)ccc1Br",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "Fc1nc(NCc2ccccc2Cl)ccc1-c1ccccc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "Fc1nc(NCc2ccccc2Cl)ccc1-c1ccccc1",
+                  "qed": 0.6735780541500069,
+                  "root_index": 1,
+                  "rank": 1,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "Fc1nc(NCc2ccccc2Cl)ccc1Br",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R45",
+              "root_index": 2,
+              "rank": 1,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "Nc1cc(NCC2CCNCC2)c(Cl)cn1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(N4CCC(CNc5cc(N)ncc5Cl)CC4)ncnc3[nH]2)cc1",
+                "CCOC(=O)c1ccc(-c2cc3c(Nc4cc(NCC5CCNCC5)c(Cl)cn4)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(N4CCC(CNc5cc(N)ncc5Cl)CC4)ncnc3[nH]2)cc1",
+                  "qed": 0.30715398556192997,
+                  "root_index": 2,
+                  "rank": 1,
+                  "rxn_ref": "R45",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "Nc1cc(NCC2CCNCC2)c(Cl)cn1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": true
+                },
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(Nc4cc(NCC5CCNCC5)c(Cl)cn4)ncnc3[nH]2)cc1",
+                  "qed": 0.24695028375178224,
+                  "root_index": 2,
+                  "rank": 1,
+                  "rxn_ref": "R45",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "Nc1cc(NCC2CCNCC2)c(Cl)cn1"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": false
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R48",
+              "root_index": 3,
+              "rank": 1,
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "NCCCCl"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOC(=O)c1ccc(-c2cc3c(NCCCCl)ncnc3[nH]2)cc1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCCl)ncnc3[nH]2)cc1",
+                  "qed": 0.38080312674591593,
+                  "root_index": 3,
+                  "rank": 1,
+                  "rxn_ref": "R48",
+                  "reactants": [
+                    "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                    "NCCCCl"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R38",
+              "root_index": 0,
+              "rank": 2,
+              "reactants": [
+                "Brc1ccccc1",
+                "ClCCCOc1ccccc1Nc1nc(Cl)nc2c1ncn2C1CCCC1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "ClCCCOc1ccccc1Nc1nc(-c2ccccc2)nc2c1ncn2C1CCCC1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "ClCCCOc1ccccc1Nc1nc(-c2ccccc2)nc2c1ncn2C1CCCC1",
+                  "qed": 0.25125306993211327,
+                  "root_index": 0,
+                  "rank": 2,
+                  "rxn_ref": "R38",
+                  "reactants": [
+                    "Brc1ccccc1",
+                    "ClCCCOc1ccccc1Nc1nc(Cl)nc2c1ncn2C1CCCC1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R85",
+              "root_index": 1,
+              "rank": 2,
+              "reactants": [
+                "O=C(Cc1ccccc1)Nc1cncc(Br)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "O=C(Cc1ccccc1)Nc1cncc(-c2ccccc2)c1"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "O=C(Cc1ccccc1)Nc1cncc(-c2ccccc2)c1",
+                  "qed": 0.790034699622958,
+                  "root_index": 1,
+                  "rank": 2,
+                  "rxn_ref": "R85",
+                  "reactants": [
+                    "O=C(Cc1ccccc1)Nc1cncc(Br)c1",
+                    "OB(O)c1ccccc1"
+                  ],
+                  "missing_side_count": 1,
+                  "quality_pass": true
+                }
+              ]
+            },
+            {
+              "rxn_ref": "R45",
+              "root_index": 2,
+              "rank": 2,
+              "reactants": [
+                "Brc1ncnc2[nH]cnc12",
+                "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC"
+              ],
+              "cache_hit": false,
+              "forward_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1",
+              "products": [
+                "CCOP(=O)(OCC)N(c1ncnc2[nH]cnc12)C1CN(C(=O)OCc2ccccc2)CCC1Cl"
+              ],
+              "forward_error": null,
+              "evaluated_products": [
+                {
+                  "smiles": "CCOP(=O)(OCC)N(c1ncnc2[nH]cnc12)C1CN(C(=O)OCc2ccccc2)CCC1Cl",
+                  "qed": 0.3222695325322926,
+                  "root_index": 2,
+                  "rank": 2,
+                  "rxn_ref": "R45",
+                  "reactants": [
+                    "Brc1ncnc2[nH]cnc12",
+                    "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC"
+                  ],
+                  "missing_side_count": 2,
+                  "quality_pass": true
+                }
+              ]
+            }
+          ],
+          "costs": {
+            "logical_forward_attempts": 11,
+            "new_forward_attempts": 9,
+            "cached_forward_attempts": 2,
+            "logical_score_slots": 8,
+            "ranking_seconds": 0.04317078700296406,
+            "new_forward_seconds": 3.868470535000597,
+            "new_forward_errors": 0,
+            "logical_source_attributions": 1
+          },
+          "scored_candidates": [
+            {
+              "smiles": "COc1cc2c(Nc3ccc(-c4ccccc4)cc3F)ncnc2cc1OCc1ccccc1",
+              "qed": 0.29601142695310934,
+              "root_index": 0,
+              "rank": 0,
+              "rxn_ref": "R38",
+              "reactants": [
+                "Brc1ccccc1",
+                "COc1cc2c(Nc3ccc(Cl)cc3F)ncnc2cc1OCc1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.49,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCl)ncnc3[nH]2)cc1",
+              "qed": 0.5285368956796538,
+              "root_index": 3,
+              "rank": 0,
+              "rxn_ref": "R48",
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "NCCCl"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true,
+              "task_score": 0.38,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "Fc1nc(NCc2ccccc2Cl)ccc1-c1ccccc1",
+              "qed": 0.6735780541500069,
+              "root_index": 1,
+              "rank": 1,
+              "rxn_ref": "R85",
+              "reactants": [
+                "Fc1nc(NCc2ccccc2Cl)ccc1Br",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.04,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(N4CCC(CNc5cc(N)ncc5Cl)CC4)ncnc3[nH]2)cc1",
+              "qed": 0.30715398556192997,
+              "root_index": 2,
+              "rank": 1,
+              "rxn_ref": "R45",
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "Nc1cc(NCC2CCNCC2)c(Cl)cn1"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true,
+              "task_score": 0.38,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "CCOC(=O)c1ccc(-c2cc3c(NCCCCl)ncnc3[nH]2)cc1",
+              "qed": 0.38080312674591593,
+              "root_index": 3,
+              "rank": 1,
+              "rxn_ref": "R48",
+              "reactants": [
+                "CCOC(=O)c1ccc(-c2cc3c(Cl)ncnc3[nH]2)cc1",
+                "NCCCCl"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true,
+              "task_score": 0.37,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "ClCCCOc1ccccc1Nc1nc(-c2ccccc2)nc2c1ncn2C1CCCC1",
+              "qed": 0.25125306993211327,
+              "root_index": 0,
+              "rank": 2,
+              "rxn_ref": "R38",
+              "reactants": [
+                "Brc1ccccc1",
+                "ClCCCOc1ccccc1Nc1nc(Cl)nc2c1ncn2C1CCCC1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.22,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "O=C(Cc1ccccc1)Nc1cncc(-c2ccccc2)c1",
+              "qed": 0.790034699622958,
+              "root_index": 1,
+              "rank": 2,
+              "rxn_ref": "R85",
+              "reactants": [
+                "O=C(Cc1ccccc1)Nc1cncc(Br)c1",
+                "OB(O)c1ccccc1"
+              ],
+              "missing_side_count": 1,
+              "quality_pass": true,
+              "task_score": 0.11,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            },
+            {
+              "smiles": "CCOP(=O)(OCC)N(c1ncnc2[nH]cnc12)C1CN(C(=O)OCc2ccccc2)CCC1Cl",
+              "qed": 0.3222695325322926,
+              "root_index": 2,
+              "rank": 2,
+              "rxn_ref": "R45",
+              "reactants": [
+                "Brc1ncnc2[nH]cnc12",
+                "CCOP(=O)(NC1CN(C(=O)OCc2ccccc2)CCC1Cl)OCC"
+              ],
+              "missing_side_count": 2,
+              "quality_pass": true,
+              "task_score": 0.28,
+              "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_scores.json",
+              "task_pass": false
+            }
+          ],
+          "best_candidate": null
+        }
+      },
+      "prediction_from_tree_paths": 1.0,
+      "source_bias": 0.06250920645609312,
+      "costs": {
+        "retro_template_calls": 1071,
+        "source_replay_forward_calls": 31,
+        "root_seconds": 13.592835585999637,
+        "exact_replay_root_counts": {
+          "1": 9,
+          "2": 5
+        },
+        "grouped_root_counts": {
+          "1": 3,
+          "2": 3
+        },
+        "selected_root_counts": {
+          "1": 2,
+          "2": 2
+        },
+        "all_exact_replay_roots": [
+          {
+            "rxn_ref": "R38",
+            "precursors": [
+              "Brc1ccccc1",
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Cl)nc12"
+            ],
+            "missing_sides": [
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R38",
+            "precursors": [
+              "Brc1ccccc1",
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12"
+            ],
+            "missing_sides": [
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R38",
+            "precursors": [
+              "Ic1ccccc1",
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Cl)nc12"
+            ],
+            "missing_sides": [
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R45",
+            "precursors": [
+              "Clc1ncnc2[nH]c(-c3ccccc3)nc12",
+              "NCC1=CC(NCc2ccccc2)=CC1CCCl"
+            ],
+            "missing_sides": [
+              0,
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R45",
+            "precursors": [
+              "Brc1ncnc2[nH]c(-c3ccccc3)nc12",
+              "NCC1=CC(NCc2ccccc2)=CC1CCCl"
+            ],
+            "missing_sides": [
+              0,
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R48",
+            "precursors": [
+              "Clc1ncnc2[nH]c(-c3ccccc3)nc12",
+              "NCC1=CC(NCc2ccccc2)=CC1CCCl"
+            ],
+            "missing_sides": [
+              0,
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R48",
+            "precursors": [
+              "Fc1ncnc2[nH]c(-c3ccccc3)nc12",
+              "NCC1=CC(NCc2ccccc2)=CC1CCCl"
+            ],
+            "missing_sides": [
+              0,
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R85",
+            "precursors": [
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12",
+              "CC1(C)OB(c2ccccc2)OC1(C)C"
+            ],
+            "missing_sides": [
+              0,
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R85",
+            "precursors": [
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12",
+              "OB(O)c1ccccc1"
+            ],
+            "missing_sides": [
+              0
+            ]
+          },
+          {
+            "rxn_ref": "R87",
+            "precursors": [
+              "Brc1ccccc1",
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12"
+            ],
+            "missing_sides": [
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R87",
+            "precursors": [
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12",
+              "Brc1ccccc1"
+            ],
+            "missing_sides": [
+              0
+            ]
+          },
+          {
+            "rxn_ref": "R87",
+            "precursors": [
+              "Brc1ccccc1",
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(I)nc12"
+            ],
+            "missing_sides": [
+              1
+            ]
+          },
+          {
+            "rxn_ref": "R87",
+            "precursors": [
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12",
+              "Ic1ccccc1"
+            ],
+            "missing_sides": [
+              0
+            ]
+          },
+          {
+            "rxn_ref": "R87",
+            "precursors": [
+              "Ic1ccccc1",
+              "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(Br)nc12"
+            ],
+            "missing_sides": [
+              1
+            ]
+          }
+        ],
+        "source_RF_path_attributions": 1,
+        "attribution_seconds": 0.01005051900028775,
+        "matching_seconds": 1.0032129199971678,
+        "plan_generation_seconds": 32.36561924600028,
+        "score_seconds_this_completion": 0.266380533001211,
+        "new_task_predictions_this_completion": 13,
+        "reused_unique_task_predictions_this_completion": 2
+      }
+    }
+  ]
+}

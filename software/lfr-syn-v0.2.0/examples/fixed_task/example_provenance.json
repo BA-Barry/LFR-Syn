@@ -1,0 +1,10 @@
+{
+  "selected_source": "graphga-qualconfirm-gsk3b-rep0-r000",
+  "selection": "First original saved source with completed replacement branches in both fixed policies, chosen solely to cover software replay branches.",
+  "fixed_origin": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\fixed_outputs.json",
+  "candidate_origin": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\candidate_stage.json",
+  "source_positions": 1,
+  "new_scientific_work": 0,
+  "independent_efficacy_units_added": 0,
+  "route_audit": "Original audited witness fields consumed, not independently native-audited by replay."
+}

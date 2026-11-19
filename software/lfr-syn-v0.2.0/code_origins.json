@@ -1,0 +1,231 @@
+{
+  "package_version": "0.2.0",
+  "acquired_date": "2026-10-03",
+  "source_locations": [
+    {
+      "name": "v2_common_slot_retrieval_candidates.py",
+      "source_path": "/mnt/c/Users/Chu/v2_common_slot_retrieval_candidates.py"
+    },
+    {
+      "name": "v2_unified_raw8_candidates.py",
+      "source_path": "/mnt/c/Users/Chu/v2_unified_raw8_candidates.py"
+    },
+    {
+      "name": "independent_training256_candidates.py",
+      "source_path": "/mnt/c/Users/Chu/independent_training256_candidates.py"
+    },
+    {
+      "name": "joint_validation512_candidates.py",
+      "source_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/code/joint_validation512_candidates.py"
+    },
+    {
+      "name": "joint_validation512_graph.py",
+      "source_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/code/joint_validation512_graph.py"
+    },
+    {
+      "name": "shared_stock.py",
+      "source_path": "/home/chu/lfr-syn/src/lfr_syn/shared_stock.py"
+    }
+  ],
+  "modules": [
+    {
+      "module": "lfr_method/common.py",
+      "functions": [
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "json_default",
+          "first_line": 32,
+          "last_line": 39
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "read",
+          "first_line": 42,
+          "last_line": 43
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "save",
+          "first_line": 46,
+          "last_line": 50
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "canon",
+          "first_line": 53,
+          "last_line": 62
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "fingerprints",
+          "first_line": 65,
+          "last_line": 67
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "features",
+          "first_line": 70,
+          "last_line": 74
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "local_contributions",
+          "first_line": 77,
+          "last_line": 99
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "ForwardCache",
+          "first_line": 135,
+          "last_line": 152
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "initialize_chemistry",
+          "first_line": 228,
+          "last_line": 249
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "score_plan",
+          "first_line": 447,
+          "last_line": 483
+        },
+        {
+          "source_file": "v2_common_slot_retrieval_candidates.py",
+          "name": "retained_source",
+          "first_line": 486,
+          "last_line": 492
+        }
+      ],
+      "packaging_changes": [
+        "Initialize chemistry takes explicit forward/retro CSV paths; function body is otherwise retained."
+      ]
+    },
+    {
+      "module": "lfr_method/roots.py",
+      "functions": [
+        {
+          "source_file": "v2_unified_raw8_candidates.py",
+          "name": "find_roots",
+          "first_line": 110,
+          "last_line": 156
+        }
+      ],
+      "packaging_changes": []
+    },
+    {
+      "module": "lfr_method/retrieval.py",
+      "functions": [
+        {
+          "source_file": "independent_training256_candidates.py",
+          "name": "find_roots",
+          "first_line": 157,
+          "last_line": 169
+        },
+        {
+          "source_file": "independent_training256_candidates.py",
+          "name": "generate_plan",
+          "first_line": 175,
+          "last_line": 293
+        }
+      ],
+      "packaging_changes": []
+    },
+    {
+      "module": "lfr_method/permutation.py",
+      "functions": [
+        {
+          "source_file": "joint_validation512_candidates.py",
+          "name": "permutation",
+          "first_line": 87,
+          "last_line": 92
+        }
+      ],
+      "packaging_changes": []
+    },
+    {
+      "module": "lfr_method/graph_core.py",
+      "functions": [
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "read",
+          "first_line": 44,
+          "last_line": 45
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "save",
+          "first_line": 48,
+          "last_line": 53
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "identity",
+          "first_line": 56,
+          "last_line": 59
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "candidate_pool",
+          "first_line": 67,
+          "last_line": 87
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "evaluate_policy",
+          "first_line": 90,
+          "last_line": 207
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "ResidentGraph",
+          "first_line": 210,
+          "last_line": 315
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "QueryStore",
+          "first_line": 318,
+          "last_line": 565
+        },
+        {
+          "source_file": "joint_validation512_graph.py",
+          "name": "summary",
+          "first_line": 597,
+          "last_line": 614
+        }
+      ],
+      "packaging_changes": [
+        "Parent request permits initially stocked targets while removing their key; candidate stock guard and all search/audit settings retained."
+      ]
+    },
+    {
+      "module": "lfr_syn/shared_stock.py",
+      "source_file": "shared_stock.py",
+      "packaging_changes": [],
+      "role": "Retained project stock adapter, complete source copy."
+    },
+    {
+      "module": "lfr_method/fixedtask_kernel.py",
+      "source_file": "sources/fixedtask_kernel.py",
+      "actual_validated_origin": "G:/逆合成结构化反馈/graphga_fixedtask128_v1/fixedtask_kernel.py",
+      "packaging_changes": [],
+      "role": "Exact project eligibility wrapper used by the completed independent1024 study; strict score flags and kernels retained."
+    },
+    {
+      "module": "lfr_method/qualification.py",
+      "packaging_changes": [
+        "Explicit mode dispatch and RF-change/guarantee annotations; no chemistry/search implementation."
+      ],
+      "role": "Formal default fixed_task; historical source_preserving remains available."
+    }
+  ],
+  "interpretation": "Retained current project source used by completed workflows; new parameterized packaging is not asserted to be the original full execution controller or a new scientific result.",
+  "formal_qualification_adoption_date": "2026-10-06",
+  "qualification_modes": {
+    "default_cli": "fixed_task",
+    "explicit_historical": "source_preserving",
+    "historical_missing_config_mode": "source_preserving"
+  }
+}

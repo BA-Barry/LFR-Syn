@@ -1,0 +1,119 @@
+{
+  "scalar_fields_checked": 13757,
+  "floating_differences": [
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.all_positions.mean_RF_change_identification_bounds[0]",
+      "reconstructed": -0.18220703125,
+      "reference": -0.18220703125000093,
+      "difference": 9.159339953157541e-16,
+      "absolute_difference": 9.159339953157541e-16
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.all_positions.mean_RF_change_identification_bounds[1]",
+      "reconstructed": -0.18220703125,
+      "reference": -0.18220703125000093,
+      "difference": 9.159339953157541e-16,
+      "absolute_difference": 9.159339953157541e-16
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.all_positions.mean_external_change_identification_bounds[0]",
+      "reconstructed": -0.0006832728615861526,
+      "reference": -0.000683272861586133,
+      "difference": -1.962405932198763e-17,
+      "absolute_difference": 1.962405932198763e-17
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.all_positions.mean_external_change_identification_bounds[1]",
+      "reconstructed": -0.0006832728615861526,
+      "reference": -0.000683272861586133,
+      "difference": -1.962405932198763e-17,
+      "absolute_difference": 1.962405932198763e-17
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.replacement_positions.mean_RF_change_identification_bounds[0]",
+      "reconstructed": -0.25077956989247313,
+      "reference": -0.2507795698924744,
+      "difference": 1.27675647831893e-15,
+      "absolute_difference": 1.27675647831893e-15
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.replacement_positions.mean_RF_change_identification_bounds[1]",
+      "reconstructed": -0.25077956989247313,
+      "reference": -0.2507795698924744,
+      "difference": 1.27675647831893e-15,
+      "absolute_difference": 1.27675647831893e-15
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.replacement_positions.mean_external_change_identification_bounds[0]",
+      "reconstructed": -0.0009404185621830918,
+      "reference": -0.0009404185621830648,
+      "difference": -2.699663409488906e-17,
+      "absolute_difference": 2.699663409488906e-17
+    },
+    {
+      "path": "analysis.property_changes.B_fixedtask6plus6.replacement_positions.mean_external_change_identification_bounds[1]",
+      "reconstructed": -0.0009404185621830918,
+      "reference": -0.0009404185621830648,
+      "difference": -2.699663409488906e-17,
+      "absolute_difference": 2.699663409488906e-17
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.all_positions.mean_RF_change_identification_bounds[0]",
+      "reconstructed": -0.234384765625,
+      "reference": -0.23438476562500024,
+      "difference": 2.498001805406602e-16,
+      "absolute_difference": 2.498001805406602e-16
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.all_positions.mean_RF_change_identification_bounds[1]",
+      "reconstructed": -0.234384765625,
+      "reference": -0.23438476562500024,
+      "difference": 2.498001805406602e-16,
+      "absolute_difference": 2.498001805406602e-16
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.all_positions.mean_external_change_identification_bounds[0]",
+      "reconstructed": -0.026173148854935383,
+      "reference": -0.026173148854935352,
+      "difference": -3.122502256758253e-17,
+      "absolute_difference": 3.122502256758253e-17
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.all_positions.mean_external_change_identification_bounds[1]",
+      "reconstructed": -0.026173148854935383,
+      "reference": -0.026173148854935352,
+      "difference": -3.122502256758253e-17,
+      "absolute_difference": 3.122502256758253e-17
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.replacement_positions.mean_RF_change_identification_bounds[0]",
+      "reconstructed": -0.3133289817232376,
+      "reference": -0.3133289817232379,
+      "difference": 3.3306690738754696e-16,
+      "absolute_difference": 3.3306690738754696e-16
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.replacement_positions.mean_RF_change_identification_bounds[1]",
+      "reconstructed": -0.3133289817232376,
+      "reference": -0.3133289817232379,
+      "difference": 3.3306690738754696e-16,
+      "absolute_difference": 3.3306690738754696e-16
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.replacement_positions.mean_external_change_identification_bounds[0]",
+      "reconstructed": -0.034988648077615966,
+      "reference": -0.034988648077615925,
+      "difference": -4.163336342344337e-17,
+      "absolute_difference": 4.163336342344337e-17
+    },
+    {
+      "path": "analysis.property_changes.C_fixedtask6plus6.replacement_positions.mean_external_change_identification_bounds[1]",
+      "reconstructed": -0.034988648077615966,
+      "reference": -0.034988648077615925,
+      "difference": -4.163336342344337e-17,
+      "absolute_difference": 4.163336342344337e-17
+    }
+  ],
+  "maximum_absolute_floating_difference": 1.27675647831893e-15,
+  "failures": []
+}

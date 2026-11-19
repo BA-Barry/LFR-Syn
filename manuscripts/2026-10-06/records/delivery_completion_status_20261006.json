@@ -1,0 +1,61 @@
+{
+  "recorded_local": "2026-10-06T17:19:18.032479+08:00",
+  "formal_direction_adopted": true,
+  "all_adopted_scientific_effect_experiments": "complete",
+  "independent_scientific_audits": "four_actual_passes",
+  "further_scientific_experiments_queued": false,
+  "English_main_working_draft": {
+    "status": "complete",
+    "words_including_tables_legends_references": 4828,
+    "abstract_words": 143,
+    "pages": 14
+  },
+  "English_supplement": {
+    "status": "complete",
+    "sections": 24,
+    "numbered_tables": 26,
+    "additional_table_blocks": 2,
+    "pages": 59,
+    "native_Word_math_objects": 10
+  },
+  "evidence_checking": {
+    "actual_numeric_comparisons": 123,
+    "numeric_conflicts": 0,
+    "main_reference_entries": 25,
+    "unresolved_layout_issues": 0,
+    "actual_pages_visually_covered": 73
+  },
+  "canonical_fixed_task_software": {
+    "version": "0.2.0",
+    "tests_run": 74,
+    "passed": 73,
+    "expected_platform_skip": 1,
+    "scientific_kernel_changes_for_packaging": 0
+  },
+  "portable_saved_analysis": {
+    "policy_rows": 5120,
+    "source_positions": 1024,
+    "run_units": 16,
+    "scalar_comparisons": 13757,
+    "substantive_conflicts": 0,
+    "last_bit_float_differences_retained": 16,
+    "malformed_input_tests_passed": 8,
+    "scientific_model_work": 0
+  },
+  "remaining_before_formal_submission": [
+    "Researcher-written submission text, final author interpretation and accurate AI-assistance disclosure under Bioinformatics policy",
+    "Author, affiliation, contact, funding and interest fields deferred by the user",
+    "Authorized stable public code/data deposition, archive accession, and license decisions",
+    "Human final submission decision and portal submission"
+  ],
+  "formal_submission_ready": false,
+  "uploaded_or_submitted": false,
+  "current_core_claim": "Auditable reaction-constrained local replacement increases predicted-task-qualified plus audited-route output-position yield under fixed task floors; score and diversity tradeoffs are retained.",
+  "claim_limits": [
+    "B fixed vs B source-preserving 883/202 of1024",
+    "Fixed B/C883/880 does not establish B superiority or equivalence",
+    "Not biological activity, laboratory synthesis, universal task transfer or equal-total-compute benchmarking"
+  ],
+  "journal_policy_source": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+  "historical_records_preserved": true
+}

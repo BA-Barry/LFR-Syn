@@ -1,0 +1,111 @@
+{
+  "scope": "measured_saved_source_software_branch_fixture_not_efficacy_cohort",
+  "rows": [
+    {
+      "sample_id": "graphga-qualconfirm-gsk3b-rep0-r000",
+      "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+      "task": "gsk3b",
+      "task_index": 0,
+      "replicate": 0,
+      "position": 0,
+      "raw_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+      "canonical_smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+      "valid": true,
+      "task_score": 1.0,
+      "qed": 0.29810018380223346,
+      "search_seed": 12500000,
+      "terminal_population_index": 2,
+      "score_provenance": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/new_generation_RF_scores.jsonl",
+      "requested_search_seed": 12500000,
+      "graph_verified": false,
+      "graph_result": {
+        "row": 0,
+        "request": {
+          "smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+          "seed": 12500000,
+          "calls_limit": 12,
+          "soft_seconds": 45.0,
+          "target_role": "parent"
+        },
+        "requested_seed": 12500000,
+        "adopted_seed": 12500000,
+        "current_study_seed_adopted": false,
+        "status": "unsolved_within_budget",
+        "started_unix": 1791180176.6336393,
+        "pid": 16,
+        "model_calls": 12,
+        "search_seconds": 24.65143207,
+        "verified_solved": false,
+        "cost_observation_complete": true,
+        "history_path": null,
+        "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json",
+        "cache_mode": "new",
+        "solved": false,
+        "query_setup_seconds": 0.11441518600000222,
+        "first_solution_calls": null,
+        "graph_nodes": 411,
+        "target_in_stock": false,
+        "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.graph.pkl",
+        "saving_seconds": 0.006684665999998174,
+        "search_status": "unsolved_within_budget",
+        "audit": {
+          "reported_solved": false,
+          "verified_saved_graph": false,
+          "seconds": 0.0
+        },
+        "audit_seconds": 0.0,
+        "audit_complete": true,
+        "actual_new_calls": 12,
+        "retrieval_seconds": 39.916237323999994
+      },
+      "reported_parent_result": {
+        "row": 0,
+        "request": {
+          "smiles": "ClCCC1C=C(NCc2ccccc2)C=C1CNc1ncnc2[nH]c(-c3ccccc3)nc12",
+          "seed": 12500000,
+          "calls_limit": 12,
+          "soft_seconds": 45.0,
+          "target_role": "parent"
+        },
+        "requested_seed": 12500000,
+        "adopted_seed": 12500000,
+        "current_study_seed_adopted": false,
+        "status": "unsolved_within_budget",
+        "started_unix": 1791180176.6336393,
+        "pid": 16,
+        "model_calls": 12,
+        "search_seconds": 24.65143207,
+        "verified_solved": false,
+        "cost_observation_complete": true,
+        "history_path": null,
+        "result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json",
+        "cache_mode": "new",
+        "solved": false,
+        "query_setup_seconds": 0.11441518600000222,
+        "first_solution_calls": null,
+        "graph_nodes": 411,
+        "target_in_stock": false,
+        "graph_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.graph.pkl",
+        "saving_seconds": 0.006684665999998174,
+        "search_status": "unsolved_within_budget",
+        "audit": {
+          "reported_solved": false,
+          "verified_saved_graph": false,
+          "seconds": 0.0
+        },
+        "audit_seconds": 0.0,
+        "audit_complete": true,
+        "actual_new_calls": 12,
+        "retrieval_seconds": 39.916237323999994
+      },
+      "graph_result_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_qualification_independent1024_v1/graph_measurements/queries/query-00000.result.json",
+      "graph_audit": {
+        "reported_solved": false,
+        "verified_saved_graph": false,
+        "seconds": 0.0
+      },
+      "prior_graph_reused": false,
+      "query_seed_adopted": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+run,task,raw_slots,valid,RF_qualified,audited_route,original_joint,high_task_route_unresolved,low_task_route_unresolved,high_task_route_solved,low_task_route_solved
+gsk3b-rep0,gsk3b,64,60,35,14,7,28,18,7,7
+gsk3b-rep1,gsk3b,64,62,37,13,6,31,18,6,7
+gsk3b-rep2,gsk3b,64,62,40,16,7,33,13,7,9
+gsk3b-rep3,gsk3b,64,61,29,16,5,24,21,5,11
+jnk3-rep0,jnk3,64,59,21,20,6,15,24,6,14
+jnk3-rep1,jnk3,64,64,30,16,7,23,25,7,9
+jnk3-rep2,jnk3,64,61,29,21,8,21,19,8,13
+jnk3-rep3,jnk3,64,62,27,17,6,21,24,6,11

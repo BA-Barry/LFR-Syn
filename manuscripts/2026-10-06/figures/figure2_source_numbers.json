@@ -1,0 +1,366 @@
+{
+  "analysis_source": "G:\\逆合成结构化反馈\\graphga_qualification_independent1024_v1\\remote_completed_fivearm_snapshot_20261006\\external_fixed_outputs_v1\\analysis.json",
+  "endpoint": "external_joint",
+  "endpoint_definition": "Unrounded mean intended-task probability across10saved checkpoints >=0.5 and saved audited route; no guiding-RF conjunct.",
+  "source_arrays": "analysis.by_cohort for rates; saved analysis.primary / exploratory_secondary_contrasts Welch entries for point and interval.",
+  "paired_runs_by_task": {
+    "gsk3b": [
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep0",
+        "replicate": 0,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 11,
+            "raw_denominator": 64,
+            "rate_percent": 17.1875
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 61,
+            "raw_denominator": 64,
+            "rate_percent": 95.3125
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep1",
+        "replicate": 1,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 0,
+            "raw_denominator": 64,
+            "rate_percent": 0.0
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 55,
+            "raw_denominator": 64,
+            "rate_percent": 85.9375
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep2",
+        "replicate": 2,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 25,
+            "raw_denominator": 64,
+            "rate_percent": 39.0625
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 64,
+            "raw_denominator": 64,
+            "rate_percent": 100.0
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep3",
+        "replicate": 3,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 4,
+            "raw_denominator": 64,
+            "rate_percent": 6.25
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 4,
+            "raw_denominator": 64,
+            "rate_percent": 6.25
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep4",
+        "replicate": 4,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 3,
+            "raw_denominator": 64,
+            "rate_percent": 4.6875
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 64,
+            "raw_denominator": 64,
+            "rate_percent": 100.0
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep5",
+        "replicate": 5,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 11,
+            "raw_denominator": 64,
+            "rate_percent": 17.1875
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 62,
+            "raw_denominator": 64,
+            "rate_percent": 96.875
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep6",
+        "replicate": 6,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 43,
+            "raw_denominator": 64,
+            "rate_percent": 67.1875
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 63,
+            "raw_denominator": 64,
+            "rate_percent": 98.4375
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-gsk3b-rep7",
+        "replicate": 7,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 2,
+            "raw_denominator": 64,
+            "rate_percent": 3.125
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 51,
+            "raw_denominator": 64,
+            "rate_percent": 79.6875
+          }
+        ]
+      }
+    ],
+    "jnk3": [
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep0",
+        "replicate": 0,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 2,
+            "raw_denominator": 64,
+            "rate_percent": 3.125
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 64,
+            "raw_denominator": 64,
+            "rate_percent": 100.0
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep1",
+        "replicate": 1,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 9,
+            "raw_denominator": 64,
+            "rate_percent": 14.0625
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 55,
+            "raw_denominator": 64,
+            "rate_percent": 85.9375
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep2",
+        "replicate": 2,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 8,
+            "raw_denominator": 64,
+            "rate_percent": 12.5
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 64,
+            "raw_denominator": 64,
+            "rate_percent": 100.0
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep3",
+        "replicate": 3,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 3,
+            "raw_denominator": 64,
+            "rate_percent": 4.6875
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 63,
+            "raw_denominator": 64,
+            "rate_percent": 98.4375
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep4",
+        "replicate": 4,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 39,
+            "raw_denominator": 64,
+            "rate_percent": 60.9375
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 63,
+            "raw_denominator": 64,
+            "rate_percent": 98.4375
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep5",
+        "replicate": 5,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 40,
+            "raw_denominator": 64,
+            "rate_percent": 62.5
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 56,
+            "raw_denominator": 64,
+            "rate_percent": 87.5
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep6",
+        "replicate": 6,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 0,
+            "raw_denominator": 64,
+            "rate_percent": 0.0
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 36,
+            "raw_denominator": 64,
+            "rate_percent": 56.25
+          }
+        ]
+      },
+      {
+        "cohort_id": "graphga-qualconfirm-jnk3-rep7",
+        "replicate": 7,
+        "values": [
+          {
+            "policy": "B_joint6plus6",
+            "known_successes": 2,
+            "raw_denominator": 64,
+            "rate_percent": 3.125
+          },
+          {
+            "policy": "B_fixedtask6plus6",
+            "known_successes": 58,
+            "raw_denominator": 64,
+            "rate_percent": 90.625
+          }
+        ]
+      }
+    ]
+  },
+  "contrasts": [
+    {
+      "label": "B qualification (primary)",
+      "terms": [
+        {
+          "policy": "B_fixedtask6plus6",
+          "weight": 1
+        },
+        {
+          "policy": "B_joint6plus6",
+          "weight": -1
+        }
+      ],
+      "scope": "Prespecified sole primary",
+      "effect_percentage_points": 66.50390625,
+      "interval_95_percentage_points": [
+        50.49682720243667,
+        82.51098529756334
+      ],
+      "interval_method": "Task-equal paired optimizer-run mean; Welch-Satterthwaite t interval/test",
+      "optimizer_runs": 16
+    },
+    {
+      "label": "C qualification (exploratory)",
+      "terms": [
+        {
+          "policy": "C_fixedtask6plus6",
+          "weight": 1
+        },
+        {
+          "policy": "C_joint6plus6",
+          "weight": -1
+        }
+      ],
+      "scope": "Prespecified exploratory secondary; unadjusted interval, not a substitute for the primary",
+      "effect_percentage_points": 66.796875,
+      "interval_95_percentage_points": [
+        54.211621685891,
+        79.382128314109
+      ],
+      "interval_method": "Task-equal paired optimizer-run mean; Welch-Satterthwaite t interval/test",
+      "optimizer_runs": 16
+    },
+    {
+      "label": "Fixed B − fixed C (exploratory)",
+      "terms": [
+        {
+          "policy": "B_fixedtask6plus6",
+          "weight": 1
+        },
+        {
+          "policy": "C_fixedtask6plus6",
+          "weight": -1
+        }
+      ],
+      "scope": "Prespecified exploratory secondary; unadjusted interval, not a substitute for the primary",
+      "effect_percentage_points": 0.29296875,
+      "interval_95_percentage_points": [
+        -5.311618433086161,
+        5.897555933086161
+      ],
+      "interval_method": "Task-equal paired optimizer-run mean; Welch-Satterthwaite t interval/test",
+      "optimizer_runs": 16
+    }
+  ],
+  "plotting_only": "All rates and intervals are read from the completed analysis. Replicate-specific horizontal jitter separates overlapping points, with unchanged y values. No new statistic, confidence interval, model prediction or chemistry is computed."
+}

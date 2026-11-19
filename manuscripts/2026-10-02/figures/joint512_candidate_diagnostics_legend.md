@@ -1,0 +1,9 @@
+# 新 512 个原始生成槽位的来源与候选诊断图
+
+数据范围：GSK3B、JNK3 各 4 次独立终点训练，每次保留全部 64 个原始生成槽位，总计 512 个。作图使用已完成的原始分子路线审计和候选性质筛选，不使用候选路线结果。此图是机制诊断，不能替代最终联合成功率比较。
+
+**Figure. Source outcomes and candidate qualification in eight independent terminal runs.** (a) Original sources classified by RF task qualification and saved, audited Graph2Edits route solution. Cell percentages use all 512 raw generation slots; the 21 invalid slots remain in this denominator and are outside the matrix. The original sources produced 52 joint successes. (b) Slots with at least one replacement candidate satisfying the prespecified RF and QED criteria, before candidate route validation. A uses Morgan ranking, B uses task-specific RF path contributions, C uses permuted contributions, and Mix alternates B and A candidate streams under the same candidate enrollment allowance. The 52 already successful original sources and 21 invalid slots do not generate replacements. (c) Paired differences in candidate-qualified slots, expressed as percentage points of the 64 raw slots in each terminal run. Blue circles denote GSK3B; orange squares denote JNK3. Each point is one full independent training run. All eight runs favor B over A and C on this intermediate endpoint. Mix is task dependent and does not exceed B in aggregate. No slot-level independence assumption, significance test or confidence interval is used in this descriptive figure. Completed final RF-and-audited-route joint effects are reported separately in joint512_final_effects.pdf.
+
+来源：`bkunyun_migration_20261001/joint_validation512_original_summary_20261002.json` 与 `joint_validation512_candidate_summary_20261002.json`。三个同目录 CSV 分别保存原始来源计数、逐运行候选计数和逐运行成对差值；可由 Python 脚本重新生成。
+
+导出：180 × 137 mm；PDF/SVG 保留可编辑文字；TIFF 600 dpi。物理尺寸用于当前排版草稿，未宣称满足尚未完整核实的 Bioinformatics 所有最终制图规格。此图后续可按最终联合结果调整论文图号和位置，数值不得替换为部分运行结果。

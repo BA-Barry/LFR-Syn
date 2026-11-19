@@ -1,0 +1,81 @@
+comparison,endpoint,cohort_id,raw_n,net_lower_slots,net_upper_slots
+primary_Mix_minus_B_split,Optimized RF,gsk3b-rep0,64,3,3
+primary_Mix_minus_B_split,Optimized RF,jnk3-rep0,64,-8,-8
+primary_Mix_minus_B_split,Optimized RF,gsk3b-rep1,64,-2,-2
+primary_Mix_minus_B_split,Optimized RF,jnk3-rep1,64,-2,-2
+primary_Mix_minus_B_split,Optimized RF,gsk3b-rep2,64,-4,-4
+primary_Mix_minus_B_split,Optimized RF,jnk3-rep2,64,-5,-5
+primary_Mix_minus_B_split,Optimized RF,gsk3b-rep3,64,1,1
+primary_Mix_minus_B_split,Optimized RF,jnk3-rep3,64,2,2
+primary_Mix_minus_B_split,Chemprop >= 0.5,gsk3b-rep0,64,4,4
+primary_Mix_minus_B_split,Chemprop >= 0.5,jnk3-rep0,64,-6,-6
+primary_Mix_minus_B_split,Chemprop >= 0.5,gsk3b-rep1,64,-1,-1
+primary_Mix_minus_B_split,Chemprop >= 0.5,jnk3-rep1,64,-2,-2
+primary_Mix_minus_B_split,Chemprop >= 0.5,gsk3b-rep2,64,-4,-4
+primary_Mix_minus_B_split,Chemprop >= 0.5,jnk3-rep2,64,-6,-6
+primary_Mix_minus_B_split,Chemprop >= 0.5,gsk3b-rep3,64,-3,-3
+primary_Mix_minus_B_split,Chemprop >= 0.5,jnk3-rep3,64,-2,-2
+attribution_B_minus_C,Optimized RF,gsk3b-rep0,64,9,9
+attribution_B_minus_C,Optimized RF,jnk3-rep0,64,7,7
+attribution_B_minus_C,Optimized RF,gsk3b-rep1,64,9,9
+attribution_B_minus_C,Optimized RF,jnk3-rep1,64,14,14
+attribution_B_minus_C,Optimized RF,gsk3b-rep2,64,7,7
+attribution_B_minus_C,Optimized RF,jnk3-rep2,64,8,8
+attribution_B_minus_C,Optimized RF,gsk3b-rep3,64,4,4
+attribution_B_minus_C,Optimized RF,jnk3-rep3,64,4,4
+attribution_B_minus_C,Chemprop >= 0.5,gsk3b-rep0,64,9,9
+attribution_B_minus_C,Chemprop >= 0.5,jnk3-rep0,64,6,6
+attribution_B_minus_C,Chemprop >= 0.5,gsk3b-rep1,64,12,12
+attribution_B_minus_C,Chemprop >= 0.5,jnk3-rep1,64,4,4
+attribution_B_minus_C,Chemprop >= 0.5,gsk3b-rep2,64,10,10
+attribution_B_minus_C,Chemprop >= 0.5,jnk3-rep2,64,10,10
+attribution_B_minus_C,Chemprop >= 0.5,gsk3b-rep3,64,10,10
+attribution_B_minus_C,Chemprop >= 0.5,jnk3-rep3,64,3,3
+trigger_joint_minus_route,Optimized RF,gsk3b-rep0,64,2,2
+trigger_joint_minus_route,Optimized RF,jnk3-rep0,64,5,5
+trigger_joint_minus_route,Optimized RF,gsk3b-rep1,64,3,3
+trigger_joint_minus_route,Optimized RF,jnk3-rep1,64,5,5
+trigger_joint_minus_route,Optimized RF,gsk3b-rep2,64,6,6
+trigger_joint_minus_route,Optimized RF,jnk3-rep2,64,4,4
+trigger_joint_minus_route,Optimized RF,gsk3b-rep3,64,3,3
+trigger_joint_minus_route,Optimized RF,jnk3-rep3,64,0,0
+trigger_joint_minus_route,Chemprop >= 0.5,gsk3b-rep0,64,0,0
+trigger_joint_minus_route,Chemprop >= 0.5,jnk3-rep0,64,1,1
+trigger_joint_minus_route,Chemprop >= 0.5,gsk3b-rep1,64,2,2
+trigger_joint_minus_route,Chemprop >= 0.5,jnk3-rep1,64,0,0
+trigger_joint_minus_route,Chemprop >= 0.5,gsk3b-rep2,64,2,2
+trigger_joint_minus_route,Chemprop >= 0.5,jnk3-rep2,64,1,1
+trigger_joint_minus_route,Chemprop >= 0.5,gsk3b-rep3,64,2,2
+trigger_joint_minus_route,Chemprop >= 0.5,jnk3-rep3,64,0,0
+allocation_split_minus_twelve,Optimized RF,gsk3b-rep0,64,4,4
+allocation_split_minus_twelve,Optimized RF,jnk3-rep0,64,4,4
+allocation_split_minus_twelve,Optimized RF,gsk3b-rep1,64,3,3
+allocation_split_minus_twelve,Optimized RF,jnk3-rep1,64,2,2
+allocation_split_minus_twelve,Optimized RF,gsk3b-rep2,64,8,8
+allocation_split_minus_twelve,Optimized RF,jnk3-rep2,64,4,4
+allocation_split_minus_twelve,Optimized RF,gsk3b-rep3,64,3,3
+allocation_split_minus_twelve,Optimized RF,jnk3-rep3,64,1,1
+allocation_split_minus_twelve,Chemprop >= 0.5,gsk3b-rep0,64,1,1
+allocation_split_minus_twelve,Chemprop >= 0.5,jnk3-rep0,64,1,1
+allocation_split_minus_twelve,Chemprop >= 0.5,gsk3b-rep1,64,1,1
+allocation_split_minus_twelve,Chemprop >= 0.5,jnk3-rep1,64,2,2
+allocation_split_minus_twelve,Chemprop >= 0.5,gsk3b-rep2,64,9,9
+allocation_split_minus_twelve,Chemprop >= 0.5,jnk3-rep2,64,4,4
+allocation_split_minus_twelve,Chemprop >= 0.5,gsk3b-rep3,64,2,2
+allocation_split_minus_twelve,Chemprop >= 0.5,jnk3-rep3,64,1,1
+B_minus_Morgan,Optimized RF,gsk3b-rep0,64,3,3
+B_minus_Morgan,Optimized RF,jnk3-rep0,64,19,19
+B_minus_Morgan,Optimized RF,gsk3b-rep1,64,11,11
+B_minus_Morgan,Optimized RF,jnk3-rep1,64,8,8
+B_minus_Morgan,Optimized RF,gsk3b-rep2,64,18,18
+B_minus_Morgan,Optimized RF,jnk3-rep2,64,17,17
+B_minus_Morgan,Optimized RF,gsk3b-rep3,64,10,10
+B_minus_Morgan,Optimized RF,jnk3-rep3,64,6,6
+B_minus_Morgan,Chemprop >= 0.5,gsk3b-rep0,64,6,6
+B_minus_Morgan,Chemprop >= 0.5,jnk3-rep0,64,8,8
+B_minus_Morgan,Chemprop >= 0.5,gsk3b-rep1,64,11,11
+B_minus_Morgan,Chemprop >= 0.5,jnk3-rep1,64,8,8
+B_minus_Morgan,Chemprop >= 0.5,gsk3b-rep2,64,21,21
+B_minus_Morgan,Chemprop >= 0.5,jnk3-rep2,64,11,11
+B_minus_Morgan,Chemprop >= 0.5,gsk3b-rep3,64,14,14
+B_minus_Morgan,Chemprop >= 0.5,jnk3-rep3,64,8,8

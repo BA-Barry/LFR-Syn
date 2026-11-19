@@ -1,0 +1,189 @@
+{
+  "experiment": "graphga_qualification_independent1024_v1",
+  "raw_positions": 1024,
+  "optimizer_runs": 16,
+  "policies": [
+    "Original",
+    "B_joint6plus6",
+    "C_joint6plus6",
+    "B_fixedtask6plus6",
+    "C_fixedtask6plus6"
+  ],
+  "fixed_outputs_no_reselection": true,
+  "primary_threshold": 0.5,
+  "external_scores_used_in_selection": false,
+  "model_reference": {
+    "repository": "https://github.com/Tibogoss/CombiMOTS",
+    "published_commit": "3f644b727982a95b4f87115ccb8d6b4c918a02ba",
+    "software": "Chemprop1.5.2",
+    "tasks": [
+      "gsk3b_activity",
+      "jnk3_activity"
+    ],
+    "models": 10
+  },
+  "history_groups": [
+    {
+      "reuse_source": "graphga_transfer512_v1",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_transfer512_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "graphga_fixedtask128_v1",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_fixedtask128_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "graphga_fixedtask512_v1",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_fixedtask512_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "graphga_candidateallocation128_v1",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_candidateallocation128_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "graphga_retainedprecursor128_v1",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_retainedprecursor128_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "completed_formal512",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/joint_validation512_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "completed_TreeSHAP512",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/attribution_extension512_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "completed_complexity_S512",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/complexity_control512_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "completed_SynTwins_R512",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/syntwins_task_rerank512_v1/external_fixed_outputs_v1/predictions.json"
+      ]
+    },
+    {
+      "reuse_source": "compatible_older_external_caches",
+      "paths": [
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_00.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_01.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_02.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_03.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_04.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_05.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_06.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_07.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_08.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/budget_replay256_v1/external_new_fold_09.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_00_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_01_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_02_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_03_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_04_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_05_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_06_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_07_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_08_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/new_fold_09_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_independent256_v1/predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_00_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_01_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_02_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_03_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_04_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_05_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_06_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_07_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_08_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/depth3_fold_09_new_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_00_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_01_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_02_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_03_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_04_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_05_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_06_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_07_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_08_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/fold_09_predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/predictions.json",
+        "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/external_property_raw96_v1/predictions_with_depth3.json"
+      ]
+    }
+  ],
+  "statistics": "16 independent optimizer runs, 8 per fixed task, paired within-run raw yields; task-equal mean primary, Welch-Satterthwaite 95% interval/test; prespecified within-task run bootstrap100000 seed2026101801 sensitivity. Secondary contrasts exploratory, no molecular pseudoreplication; technical unknown bounds retained.",
+  "CPU_only_external_inference": true,
+  "named_history_feature_runtime_evidence": [
+    {
+      "study": "graphga_transfer512_v1",
+      "runtime_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_transfer512_v1/external_fixed_outputs_v1/external_runtime.json",
+      "packages": {
+        "chemprop": "1.5.2",
+        "torch": "2.4.1+cu121",
+        "numpy": "1.26.4",
+        "rdkit": "2023.9.6"
+      }
+    },
+    {
+      "study": "graphga_fixedtask128_v1",
+      "runtime_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_fixedtask128_v1/external_fixed_outputs_v1/analysis.json",
+      "packages": {
+        "chemprop": "1.5.2",
+        "torch": "2.4.1+cu121",
+        "rdkit": "2023.9.6",
+        "numpy": "1.26.4"
+      }
+    },
+    {
+      "study": "graphga_fixedtask512_v1",
+      "runtime_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_fixedtask512_v1/external_fixed_outputs_v1/analysis.json",
+      "packages": {
+        "chemprop": "1.5.2",
+        "torch": "2.4.1+cu121",
+        "rdkit": "2023.9.6",
+        "numpy": "1.26.4"
+      }
+    },
+    {
+      "study": "graphga_candidateallocation128_v1",
+      "runtime_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_candidateallocation128_v1/external_fixed_outputs_v1/analysis.json",
+      "packages": {
+        "chemprop": "1.5.2",
+        "torch": "2.4.1+cu121",
+        "rdkit": "2023.9.6",
+        "numpy": "1.26.4"
+      }
+    },
+    {
+      "study": "graphga_retainedprecursor128_v1",
+      "runtime_path": "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/graphga_retainedprecursor128_v1/external_fixed_outputs_v1/analysis.json",
+      "packages": {
+        "chemprop": "1.5.2",
+        "torch": "2.4.1+cu121",
+        "rdkit": "2023.9.6",
+        "numpy": "1.26.4"
+      }
+    }
+  ],
+  "AiZ_full_two_task_cache_candidates": [
+    "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/second_planner128_v1/external_fixed_outputs_v1/predictions.json",
+    "/home/chu/lfr-syn/artifacts/lfr_syn_v2_20260914/development/second_planner128_v1/predictions.json"
+  ],
+  "AiZ_separate_full_cache_paths": [],
+  "AiZ_fold_reuse_note": "AiZ fixed-arm structures used the completed formal512 two-task ten-fold cache. Task-only inputs are not imported as incomplete two-task vectors."
+}

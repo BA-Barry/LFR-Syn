@@ -1,0 +1,33 @@
+run,task,arm,label,raw_slots,eligible_slots,at_least_two_eligible,eligible_per_raw_percent
+gsk3b-rep0,gsk3b,morgan,A: Morgan,64,26,14,40.625
+gsk3b-rep0,gsk3b,permuted_contribution,C: Permuted,64,26,18,40.625
+gsk3b-rep0,gsk3b,task_contribution,B: Contribution,64,32,26,50.0
+gsk3b-rep0,gsk3b,mix,Mix: B + A,64,34,25,53.125
+gsk3b-rep1,gsk3b,morgan,A: Morgan,64,29,18,45.3125
+gsk3b-rep1,gsk3b,permuted_contribution,C: Permuted,64,31,19,48.4375
+gsk3b-rep1,gsk3b,task_contribution,B: Contribution,64,41,36,64.0625
+gsk3b-rep1,gsk3b,mix,Mix: B + A,64,41,32,64.0625
+gsk3b-rep2,gsk3b,morgan,A: Morgan,64,20,13,31.25
+gsk3b-rep2,gsk3b,permuted_contribution,C: Permuted,64,34,27,53.125
+gsk3b-rep2,gsk3b,task_contribution,B: Contribution,64,40,35,62.5
+gsk3b-rep2,gsk3b,mix,Mix: B + A,64,40,32,62.5
+gsk3b-rep3,gsk3b,morgan,A: Morgan,64,29,20,45.3125
+gsk3b-rep3,gsk3b,permuted_contribution,C: Permuted,64,36,23,56.25
+gsk3b-rep3,gsk3b,task_contribution,B: Contribution,64,39,31,60.9375
+gsk3b-rep3,gsk3b,mix,Mix: B + A,64,40,29,62.5
+jnk3-rep0,jnk3,morgan,A: Morgan,64,20,9,31.25
+jnk3-rep0,jnk3,permuted_contribution,C: Permuted,64,31,22,48.4375
+jnk3-rep0,jnk3,task_contribution,B: Contribution,64,39,24,60.9375
+jnk3-rep0,jnk3,mix,Mix: B + A,64,31,21,48.4375
+jnk3-rep1,jnk3,morgan,A: Morgan,64,28,17,43.75
+jnk3-rep1,jnk3,permuted_contribution,C: Permuted,64,28,20,43.75
+jnk3-rep1,jnk3,task_contribution,B: Contribution,64,37,25,57.8125
+jnk3-rep1,jnk3,mix,Mix: B + A,64,35,22,54.6875
+jnk3-rep2,jnk3,morgan,A: Morgan,64,14,3,21.875
+jnk3-rep2,jnk3,permuted_contribution,C: Permuted,64,24,16,37.5
+jnk3-rep2,jnk3,task_contribution,B: Contribution,64,32,24,50.0
+jnk3-rep2,jnk3,mix,Mix: B + A,64,29,19,45.3125
+jnk3-rep3,jnk3,morgan,A: Morgan,64,19,13,29.6875
+jnk3-rep3,jnk3,permuted_contribution,C: Permuted,64,23,11,35.9375
+jnk3-rep3,jnk3,task_contribution,B: Contribution,64,26,22,40.625
+jnk3-rep3,jnk3,mix,Mix: B + A,64,26,19,40.625
